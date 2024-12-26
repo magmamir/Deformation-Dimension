@@ -1,0 +1,71 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/usual/1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/usual/2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/usual/3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/invisible/1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/invisible/2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/parkour_box_corridor/invisible/3",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

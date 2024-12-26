@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 222971
+      },
+      "model": "mmdp.deformation:item/transgression_armor_trim"
+    }
+  ]
+}

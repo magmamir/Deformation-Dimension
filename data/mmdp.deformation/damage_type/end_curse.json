@@ -1,0 +1,7 @@
+{
+  "message_id": "wither",
+  "exhaustion": 0.3,
+  "scaling": "never",
+  "effects": "hurt",
+  "death_message_type": "default"
+}

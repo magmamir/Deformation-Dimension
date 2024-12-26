@@ -1,0 +1,2 @@
+function mmdp.deformation:indimension/mob_spawn/trial_spawners/get_random_mob/mobs
+function mmdp.deformation:indimension/mob_spawn/trial_spawners/usual/inserting with storage mmdp:deformation score_translation

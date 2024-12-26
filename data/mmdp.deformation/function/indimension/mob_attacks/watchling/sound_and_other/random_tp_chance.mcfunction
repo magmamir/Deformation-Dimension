@@ -1,0 +1,2 @@
+advancement revoke @s only mmdp.deformation:technical/watchling/teleportation_chance
+execute as @n[type=minecraft:iron_golem,tag=mmdp.deformation.mob.watchling,nbt={HurtTime:10s}] at @s run function mmdp.deformation:indimension/mob_attacks/watchling/teleportation

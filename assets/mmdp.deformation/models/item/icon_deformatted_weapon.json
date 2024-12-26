@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mmdp.deformation:item/icon_deformatted_weapon"
+  }
+}

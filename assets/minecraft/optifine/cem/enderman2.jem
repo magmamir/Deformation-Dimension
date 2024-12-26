@@ -1,0 +1,313 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "./textures/snareling.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -39, 0],
+			"boxes": [
+				{"coordinates": [-5, 25, -4, 11, 13, 8], "textureOffset": [9, 18]}
+			],
+			"submodels": [
+				{
+					"id": "papilloma",
+					"invertAxis": "xy",
+					"translate": [-3, 31, 6],
+					"boxes": [
+						{
+							"coordinates": [-1, -4, -1, 9, 9, 4],
+							"uvNorth": [13, 44, 22, 53],
+							"uvEast": [9, 44, 13, 53],
+							"uvSouth": [26, 44, 35, 53],
+							"uvWest": [22, 44, 26, 53],
+							"uvUp": [18, 44, 9, 40],
+							"uvDown": [27, 40, 18, 44]
+						},
+						{
+							"coordinates": [0, -3, -6, 7, 7, 5],
+							"uvNorth": [14, 53, 21, 60],
+							"uvEast": [9, 53, 14, 60],
+							"uvSouth": [26, 53, 33, 60],
+							"uvWest": [21, 53, 26, 60],
+							"uvUp": [34, 44, 27, 39],
+							"uvDown": [41, 39, 34, 44]
+						},
+						{
+							"coordinates": [0, -3, 3, 7, 7, 1],
+							"uvNorth": [10, 53, 17, 60],
+							"uvEast": [9, 53, 10, 60],
+							"uvSouth": [18, 53, 25, 60],
+							"uvWest": [17, 53, 18, 60],
+							"uvUp": [34, 42, 27, 41],
+							"uvDown": [41, 41, 34, 42]
+						}
+					]
+				},
+				{
+					"id": "right_leg_comp",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [2, 30, 0],
+					"submodels": [
+						{
+							"id": "right_leg_1",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -15, -1, 2, 15, 2],
+									"uvNorth": [58, 0, 56, 15],
+									"uvEast": [60, 0, 58, 15],
+									"uvSouth": [62, 0, 60, 15],
+									"uvWest": [56, 0, 54, 15],
+									"uvUp": [52, 2, 54, 0],
+									"uvDown": [52, 2, 54, 4]
+								}
+							]
+						},
+						{
+							"id": "right_leg_2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, -15, -1],
+							"boxes": [
+								{
+									"coordinates": [0, -15, 0, 2, 15, 2],
+									"uvNorth": [58, 15, 56, 30],
+									"uvEast": [60, 15, 58, 30],
+									"uvSouth": [62, 15, 60, 30],
+									"uvWest": [56, 15, 54, 30],
+									"uvUp": [52, 2, 54, 0],
+									"uvDown": [52, 2, 54, 4]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_leg_comp",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-2, 30, 0],
+					"submodels": [
+						{
+							"id": "left_leg_1",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -15, -1, 2, 15, 2],
+									"uvNorth": [60, 0, 58, 15],
+									"uvEast": [62, 0, 60, 15],
+									"uvSouth": [64, 0, 62, 15],
+									"uvWest": [58, 0, 56, 15],
+									"uvUp": [52, 6, 54, 4],
+									"uvDown": [52, 6, 54, 8]
+								}
+							]
+						},
+						{
+							"id": "left_leg_2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, -15, -1],
+							"boxes": [
+								{
+									"coordinates": [-1, -15, 0, 2, 15, 2],
+									"uvNorth": [60, 15, 58, 30],
+									"uvEast": [62, 15, 60, 30],
+									"uvSouth": [64, 15, 62, 30],
+									"uvWest": [58, 15, 56, 30],
+									"uvUp": [52, 6, 54, 4],
+									"uvDown": [52, 6, 54, 8]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "right_arm_comp",
+					"invertAxis": "xy",
+					"translate": [6, 37, 0],
+					"submodels": [
+						{
+							"id": "right_arm_base",
+							"invertAxis": "xy",
+							"translate": [-6, -37, 0],
+							"boxes": [
+								{
+									"coordinates": [6, 2, -1, 2, 36, 2],
+									"uvNorth": [2, 16, 4, 52],
+									"uvEast": [0, 16, 2, 52],
+									"uvSouth": [6, 16, 8, 52],
+									"uvWest": [4, 16, 6, 52],
+									"uvUp": [10, 62, 8, 60],
+									"uvDown": [10, 62, 8, 64]
+								}
+							]
+						},
+						{
+							"id": "right_arm_stump",
+							"invertAxis": "xy",
+							"translate": [1, -34, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -1, 1, 2, 2, 12],
+									"uvNorth": [24, 60, 26, 62],
+									"uvEast": [12, 60, 24, 62],
+									"uvSouth": [38, 60, 40, 62],
+									"uvWest": [26, 60, 38, 62],
+									"uvUp": [2, 64, 0, 52],
+									"uvDown": [4, 52, 2, 64]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_arm_comp",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-5, 37, 0],
+					"submodels": [
+						{
+							"id": "left_arm_base",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [5, -37, 0],
+							"boxes": [
+								{
+									"coordinates": [-7, 2, -1, 2, 36, 2],
+									"uvNorth": [6, 16, 4, 52],
+									"uvEast": [4, 16, 2, 52],
+									"uvSouth": [2, 16, 0, 52],
+									"uvWest": [8, 16, 6, 52],
+									"uvUp": [10, 62, 12, 60],
+									"uvDown": [10, 62, 12, 64]
+								}
+							]
+						},
+						{
+							"id": "left_arm_stump",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-1, -34, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -1, 1, 2, 2, 12],
+									"uvNorth": [24, 62, 26, 64],
+									"uvEast": [12, 62, 24, 64],
+									"uvSouth": [38, 62, 40, 64],
+									"uvWest": [26, 62, 38, 64],
+									"uvUp": [6, 64, 4, 52],
+									"uvDown": [8, 52, 6, 64]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.do_attack": "if(swing_progress > 0, 1, max(var.do_attack - frame_time, 0))",
+					"var.in_blast_attack": "if(rule_index==3, min(var.in_blast_attack + frame_time, 1.5), max(var.in_blast_attack - frame_time*2.5, 0))",
+					"var.blast_attack_rt": "signum(var.in_blast_attack)*torad(0.75/(var.in_blast_attack+0.05)-16)",
+					"right_arm_comp.rx": "if(var.do_attack > 0, -age*(pi/4), var.blast_attack_rt!=0, var.blast_attack_rt*-0.5, cos(limb_swing * 1) * signum(limb_speed)*clamp(limb_speed,0.15,0.8) * 0.45)",
+					"left_arm_comp.rx": "if(var.do_attack > 0, -age*(pi/4)-pi, var.blast_attack_rt!=0, var.blast_attack_rt*-0.5, -cos(limb_swing * 1) * signum(limb_speed)*clamp(limb_speed,0.15,0.8) * 0.45)",
+					"left_arm_comp.ty": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*3 - 37,-37)",
+					"right_arm_comp.ty": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*3 - 37,-37)",
+					"body.rx": "if(var.blast_attack_rt!=0, var.blast_attack_rt, 0)",
+					"right_leg_1.rx": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*1.5, sin(limb_swing * 1) * limb_speed * 0.15)",
+					"left_leg_1.rx": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*1.5, -sin(limb_swing * 1) * limb_speed * 0.15)",
+					"right_leg_2.rx": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*3.5, limb_speed*0.17+sin(limb_swing * 1) * limb_speed * 0.35)",
+					"left_leg_2.rx": "if(var.blast_attack_rt!=0, -var.blast_attack_rt*3.5, limb_speed*0.17+-sin(limb_swing * 1) * limb_speed * 0.35)",
+					"right_leg_1.tz": "0.2+if(var.blast_attack_rt!=0, var.blast_attack_rt*8, sin(limb_swing * 1) * limb_speed * 1.75 - limb_speed * 0.65)",
+					"left_leg_1.tz": "0.2+if(var.blast_attack_rt!=0, var.blast_attack_rt*8, -sin(limb_swing * 1) * limb_speed * 1.75 - limb_speed * 0.65)",
+					"right_leg_2.tz": "-0.8+if(var.blast_attack_rt!=0, var.blast_attack_rt*(-16), sin(limb_swing * 1) * limb_speed * 3.5 - limb_speed * 1)",
+					"left_leg_2.tz": "-0.8+if(var.blast_attack_rt!=0, var.blast_attack_rt*(-16), -sin(limb_swing * 1) * limb_speed * 3.5 - limb_speed * 1)",
+					"right_leg_1.ty": "cos(limb_swing * 1) * limb_speed * 1.25",
+					"left_leg_1.ty": "-cos(limb_swing * 1) * limb_speed * 1.25",
+					"right_leg_2.ty": "14.75+cos(limb_swing * 1) * limb_speed * 1.25 - 0.5",
+					"left_leg_2.ty": "14.75-cos(limb_swing * 1) * limb_speed * 1.25 - 0.5",
+					"body.tz": "1+sin(limb_swing * 1) * limb_speed * 0.5",
+					"body.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
+					"head.tz": "1+sin(limb_swing * 1) * limb_speed * 0.75",
+					"head.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
+					"headwear.tz": "1+sin(limb_swing * 1) * limb_speed * 0.75",
+					"headwear.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
+					"right_arm_comp.rz": "if(var.do_attack > 0,sin(age*0.375)*0.075,(sin(age * 0.1) * 0.055 + 0.05))",
+					"left_arm_comp.rz": "if(var.do_attack > 0,-sin(age*0.375)*0.075,(-sin(age * 0.1) * 0.055 - 0.05))",
+					"right_arm_stump.rx": "if(var.do_attack > 0,-acos(cos(right_arm_comp.rx-1))/2,0)",
+					"left_arm_stump.rx": "if(var.do_attack > 0,-acos(cos(right_arm_comp.rx+pi-1))/2,0)"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -39, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 38.5, -4, 9, 9, 8],
+					"uvNorth": [7, 7, 16, 15],
+					"uvEast": [0, 7, 7, 15],
+					"uvSouth": [23, 7, 32, 15],
+					"uvWest": [16, 7, 23, 15],
+					"uvUp": [16, 7, 7, 0],
+					"uvDown": [25, 0, 16, 7]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -39, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 38, -4, 9, 8, 7],
+					"uvNorth": [48, 56, 57, 64],
+					"uvEast": [41, 56, 48, 64],
+					"uvSouth": [50, 48, 59, 56],
+					"uvWest": [57, 56, 64, 64],
+					"uvUp": [63, 48, 64, 49],
+					"uvDown": [50, 49, 41, 56],
+					"sizeAdd": -0.5
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -37, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -37, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-2, -30, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -30, 0]
+		}
+	]
+}

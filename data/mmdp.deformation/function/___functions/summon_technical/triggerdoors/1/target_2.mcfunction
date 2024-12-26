@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon marker ~ ~ ~ \
+    {Tags:["mmdp.deformation_entity","mmdp.deformation.triggerdoor","mmdp.deformation.triggerdoor.target","mmdp.deformation.triggerdoor.1","mmdp.deformation.triggerdoor.1.2","global.ignore"]}

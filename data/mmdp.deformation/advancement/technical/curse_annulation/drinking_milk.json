@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:end_curse/curse_annulation/drinking_milk"
+  }
+}

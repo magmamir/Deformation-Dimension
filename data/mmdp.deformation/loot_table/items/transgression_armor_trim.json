@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enderman_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"mmdp.deformation:item.transgression_armor_trim\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"translate\":\"mmdp.deformation:trim_pattern.transgression\"}",
+                  "{\"text\":\"\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.applies_to\"}",
+                  "[{\"italic\":false,\"text\":\" \"},{\"color\":\"blue\",\"translate\":\"item.minecraft.smithing_template.armor_trim.applies_to\"}]",
+                  "{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.ingredients\"}",
+                  "[{\"italic\":false,\"text\":\" \"},{\"color\":\"blue\",\"translate\":\"item.minecraft.smithing_template.armor_trim.ingredients\"}]"
+                ],
+                "minecraft:custom_model_data": 222971,
+                "minecraft:custom_data": "{ctc:{id:\"transgression_armor_trim\",from:\"mmdp:deformation\",traits:{\"item\":1b,\"armor_trim\":1b,\"smithing_template\":1b,\"armor_trim_smithing_template\":1b,\"smithing_template/armor_trim\":1b}},smithed:{ignore:{functionality:1b,crafting:1b}},mmdp:{deformation:{transgression_armor_trim:1b}}}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+				  "Tags":["global.ignore","global.ignore.pos","global.ignore.kill","global.ignore.gui","mmdp.deformation.transgression_armor_trim_used"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

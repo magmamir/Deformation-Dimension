@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "interacting": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"mmdp.deformation_entrance.interaction\",\"mmdp.deformation_entrance.active\"]}"
+        }
+      }
+    },
+    "hitting": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"mmdp.deformation_entrance.interaction\",\"mmdp.deformation_entrance.active\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interacting",
+      "hitting"
+    ]
+  ],
+  "rewards": {
+    "function": "mmdp.deformation:teleportation/to/start"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "dimension": "mmdp:deformation",
+      "block": {
+        "blocks": "minecraft:end_gateway"
+      }
+    }
+  }
+}

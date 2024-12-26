@@ -1,0 +1,1 @@
+$advancement grant @p only mmdp.deformation:end/visit_all_room_variations $(id)

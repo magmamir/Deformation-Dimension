@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:custom_model_data": 222971,
+        "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.key_obtained.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.key_obtained.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/kill_any_mob",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

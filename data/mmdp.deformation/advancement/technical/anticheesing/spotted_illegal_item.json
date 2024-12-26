@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "survival",
+              "adventure"
+            ]
+          }
+        },
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{illegal_item:1b}}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/anticheesing/spotted_illegal_item"
+  },
+  "sends_telemetry_event": true
+}

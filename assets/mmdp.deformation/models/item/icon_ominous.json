@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top_inner_faces",
+  "textures": {
+    "bottom": "mmdp.deformation:item/nothing",
+    "side": "mmdp.deformation:item/icon_ominous_side",
+    "top": "mmdp.deformation:item/icon_ominous_top"
+  }
+}

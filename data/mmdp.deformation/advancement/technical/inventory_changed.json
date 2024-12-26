@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{DeathTime:0s,Tags:[\"mmdp.deformation.dimension_explorer\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/death/inventory_changed"
+  }
+}

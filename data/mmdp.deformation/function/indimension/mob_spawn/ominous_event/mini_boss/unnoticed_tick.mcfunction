@@ -1,0 +1,2 @@
+scoreboard players add @s mmdp.deformation.in_dimension 1
+execute if score @s mmdp.deformation.in_dimension matches 400.. at @s run function mmdp.deformation:indimension/mob_spawn/ominous_event/mini_boss/redistribution

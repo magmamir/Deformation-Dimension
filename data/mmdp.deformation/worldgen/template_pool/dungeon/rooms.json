@@ -1,0 +1,247 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/city/1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/city/2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/city/3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/death_skull",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/obsidian_towers",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/dojo_pillars",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/small_room/stalactites_n_stalagmites",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/plain",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/tiles",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/filled",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/rubbles",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/shrinked_1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/shrinked_2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/medium_room/shrinked_3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/large_room/outline/1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/large_room/outline/2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/large_room/outline/3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/breeze_room/autumn_passage/1",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/breeze_room/autumn_passage/2",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/breeze_room/autumn_passage/3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:dungeon/optional/copper_parkour",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmdp.deformation:technical/parkour_box/trigger",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

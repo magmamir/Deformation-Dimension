@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"mmdp.deformation:item.delusioner_arrow\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"red\",\"italic\":false,\"translate\":\"effect.minecraft.blindness\"},{\"text\":\" (0:12)\"}]",
+                  "[{\"color\":\"red\",\"italic\":false,\"translate\":\"effect.minecraft.weakness\"},{\"text\":\" (0:06)\"}]"
+                ],
+                "minecraft:custom_data": "{ctc:{id:\"delusioner_tipped_arrow\",from:\"mmdp:deformation\",traits:{\"item\":1b,\"arrow\":1b,\"tipped_arrow\":1b}},mmdp:{deformation:{delusioner_arrow:1b}}}",
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 1114388,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 240,
+                      "ambient": false,
+                      "show_particles": true,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 120,
+                      "ambient": false,
+                      "show_particles": true,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

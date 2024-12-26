@@ -1,0 +1,18 @@
+{
+  "type": "mmdp:deformation",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "mmdp:deformation",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 64
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

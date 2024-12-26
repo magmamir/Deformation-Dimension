@@ -1,0 +1,160 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222987,
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.kill_all_mobs.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.kill_all_mobs.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/kill_any_mob",
+  "criteria": {
+    "Blastling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.blastling\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"Watchling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.watchling\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"Snareling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.snareling\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"Mawling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.mawling\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	
+	"WhiteDeformattedSkeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.white_skeleton\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"BlackDeformattedSkeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.black_skeleton\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"DeformattedPillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.deformatted_pillager\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"LocalEnderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.local_enderman\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"NaturalizedSpider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.naturalized_spider\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"Missgeburt": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.missgeburt\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    },
+	"MiniMissgeburt": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.mini_missgeburt\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

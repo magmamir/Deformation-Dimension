@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"golden_chorus_fruit\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/anticheesing/golden_chorus/consumed"
+  }
+}

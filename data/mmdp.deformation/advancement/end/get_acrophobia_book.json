@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_data": "{mmdp:{deformation:{acrophobia_enchanted_book:1b}}}",
+        "minecraft:stored_enchantments": {
+          "mmdp.deformation:acrophobia": 1
+        }
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.get_acrophobia_book.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.get_acrophobia_book.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "requirments": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

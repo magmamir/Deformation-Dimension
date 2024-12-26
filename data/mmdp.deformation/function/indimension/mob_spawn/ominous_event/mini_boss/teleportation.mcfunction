@@ -1,0 +1,3 @@
+$spreadplayers ~ ~ 0 $(radius) under 62 false @s
+execute if predicate mmdp.deformation:chance/0.1 if predicate mmdp.deformation:chance/0.5 run return 0
+execute at @s unless predicate mmdp.deformation:free_cube_space at @n[type=marker,tag=mmdp.deformation.node.active,tag=mmdp.deformation.node.room_center,distance=..256] run function mmdp.deformation:indimension/mob_spawn/ominous_event/mini_boss/teleportation with entity @n[type=marker,tag=mmdp.deformation.node.active,tag=mmdp.deformation.node.room_center,distance=..256] data

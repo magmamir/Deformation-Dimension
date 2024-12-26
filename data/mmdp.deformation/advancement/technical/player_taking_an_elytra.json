@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "air"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"mmdp.deformation.elytra_pedestal\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/elytra_pedestal/player_taking"
+  }
+}

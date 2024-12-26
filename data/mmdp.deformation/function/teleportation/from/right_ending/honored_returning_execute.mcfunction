@@ -1,0 +1,2 @@
+$execute positioned $(backTpPosX) $(backTpPosY) $(backTpPosZ) in minecraft:the_end run function mmdp.deformation:teleportation/from/right_ending/honored_returning
+$execute as $(entrance) at @s run function mmdp.deformation:outdimensional_blocks/entrance_destroyed

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222983
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.succeed_ten_times.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.succeed_ten_times.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/new_game_plus",
+  "criteria": {
+    "first": {
+      "trigger": "minecraft:impossible"
+    },
+    "second": {
+      "trigger": "minecraft:impossible"
+    },
+	"third": {
+      "trigger": "minecraft:impossible"
+    },
+	"fourth": {
+      "trigger": "minecraft:impossible"
+    },
+	"fifth": {
+      "trigger": "minecraft:impossible"
+    },
+	"sixth": {
+      "trigger": "minecraft:impossible"
+    },
+	"seventh": {
+      "trigger": "minecraft:impossible"
+    },
+	"eighth": {
+      "trigger": "minecraft:impossible"
+    },
+	"ninth": {
+      "trigger": "minecraft:impossible"
+    },
+	"tenth": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

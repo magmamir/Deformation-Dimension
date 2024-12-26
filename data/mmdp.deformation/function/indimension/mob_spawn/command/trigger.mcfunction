@@ -1,0 +1,1 @@
+$function mmdp.deformation:indimension/mob_spawn/command/summon with storage mmdp:deformation_mobs $(type)[{name:"$(name)"}]

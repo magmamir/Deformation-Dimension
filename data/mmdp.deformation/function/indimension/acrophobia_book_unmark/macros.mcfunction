@@ -1,0 +1,1 @@
+$item modify entity @s container.$(Slot) mmdp.deformation:acrophobia_book_unmarker

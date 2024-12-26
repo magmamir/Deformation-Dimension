@@ -1,0 +1,1 @@
+$tp @s ~ ~ ~ ~$(ending_shaking_x) ~$(ending_shaking_y)

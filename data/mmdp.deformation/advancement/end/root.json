@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222988
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.root.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

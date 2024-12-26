@@ -1,0 +1,134 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "./textures/mawling.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -34, 1],
+			"boxes": [
+				{
+					"coordinates": [-5, 32, -6, 11, 10, 9],
+					"uvNorth": [9, 9, 20, 19],
+					"uvEast": [0, 9, 9, 19],
+					"uvSouth": [29, 9, 40, 19],
+					"uvWest": [20, 9, 29, 19],
+					"uvUp": [11, 9, 0, 0],
+					"uvDown": [24, 0, 13, 9]
+				},
+				{"coordinates": [-1, 34, -7, 3, 2, 3], "textureOffset": [11, 59]}
+			]
+		},
+		{
+			"part": "left_tendril",
+			"id": "left_tendril",
+			"invertAxis": "xy",
+			"translate": [8, -46, 0],
+			"boxes": [
+				{
+					"coordinates": [-17, 35, -2, 12, 12, 0],
+					"uvNorth": [64, 52, 52, 64],
+					"uvEast": [52, 52, 52, 64],
+					"uvSouth": [52, 52, 64, 64],
+					"uvWest": [52, 52, 52, 64],
+					"uvUp": [64, 52, 52, 52],
+					"uvDown": [64, 52, 52, 52]
+				}
+			]
+		},
+		{
+			"part": "right_tendril",
+			"id": "right_tendril",
+			"invertAxis": "xy",
+			"translate": [-8, -46, 0],
+			"boxes": [
+				{
+					"coordinates": [6, 35, -2, 12, 12, 0],
+					"uvNorth": [52, 52, 64, 64],
+					"uvEast": [52, 52, 52, 64],
+					"uvSouth": [64, 52, 52, 64],
+					"uvWest": [52, 52, 52, 64],
+					"uvUp": [64, 52, 52, 52],
+					"uvDown": [64, 52, 52, 52]
+				}
+			]
+		},
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -21, 1],
+			"boxes": [
+				{
+					"coordinates": [-7, 12, -5, 15, 20, 9],
+					"uvNorth": [9, 19, 24, 39],
+					"uvEast": [0, 19, 9, 39],
+					"uvSouth": [33, 19, 48, 39],
+					"uvWest": [24, 19, 33, 39],
+					"uvUp": [26, 9, 11, 0],
+					"uvDown": [41, 0, 26, 9]
+				},
+				{
+					"coordinates": [-7, 12, -5.5, 15, 20, 0],
+					"uvNorth": [9, 39, 24, 59],
+					"uvEast": [9, 39, 9, 59],
+					"uvSouth": [24, 39, 9, 59],
+					"uvWest": [24, 39, 24, 59],
+					"uvUp": [24, 39, 9, 39],
+					"uvDown": [39, 39, 24, 39]
+				}
+			]
+		},
+		{
+			"part": "left_ribcage",
+			"id": "left_ribcage",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [7, -23, 5]
+		},
+		{
+			"part": "right_ribcage",
+			"id": "right_ribcage",
+			"invertAxis": "xy",
+			"translate": [-7, -23, 5]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [13, -34, 0],
+			"boxes": [
+				{"coordinates": [-9, 4, -2, 2, 28, 2], "textureOffset": [56, 0]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-13, -34, 0],
+			"boxes": [
+				{"coordinates": [8, 4, -2, 2, 28, 2], "textureOffset": [48, 0]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [6, -13, 1],
+			"boxes": [
+				{"coordinates": [-4.1, 0, -2, 2, 16, 2], "textureOffset": [56, 30]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-6, -13, 1],
+			"boxes": [
+				{"coordinates": [3.1, 0, -2, 2, 16, 2], "textureOffset": [48, 30]}
+			]
+		}
+	]
+}

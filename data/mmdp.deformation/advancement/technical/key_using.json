@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:structure_block",
+              "predicates": {
+                "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:structure_block",
+          "predicates": {
+            "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"mmdp.deformation.keyhole\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/keydoors/key_using"
+  }
+}

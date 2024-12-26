@@ -1,0 +1,2 @@
+execute in mmdp:deformation run setblock 0 0 0 repeating_command_block{TrackOutput:0b,auto:1b,Command:"function mmdp.deformation:other/cb_test/main_test"} replace
+schedule function mmdp.deformation:other/cb_test/results_check 1s replace

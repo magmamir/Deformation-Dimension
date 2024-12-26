@@ -1,0 +1,2 @@
+advancement revoke @s only mmdp.deformation:technical/watchling/hurt_sound
+execute as @n[type=minecraft:iron_golem,tag=mmdp.deformation.mob.watchling,nbt={HurtTime:10s}] at @s run playsound mmdp.deformation:entity.watchling.hurt hostile @p ~ ~ ~ 1.6

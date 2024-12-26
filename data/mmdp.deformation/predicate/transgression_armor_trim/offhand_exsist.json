@@ -1,0 +1,33 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": "minecraft:enderman_spawn_egg",
+          "predicates": {
+            "minecraft:custom_data": "{mmdp:{deformation:{transgression_armor_trim:1b}}}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:enderman_spawn_egg",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{transgression_armor_trim:1b}}}"
+            }
+          }
+        }
+      }
+    }
+  }
+]

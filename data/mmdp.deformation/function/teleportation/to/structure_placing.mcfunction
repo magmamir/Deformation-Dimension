@@ -1,0 +1,1 @@
+$place jigsaw mmdp.deformation:dungeon/central_room passive 6 $(dungeonPosX) 33 $(dungeonPosZ)

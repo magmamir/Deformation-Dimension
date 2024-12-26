@@ -1,0 +1,270 @@
+{
+  "entity.watchling.hurt": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.watchling.hurt",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/watchling/hurt_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/hurt_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/hurt_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/hurt_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.watchling.death": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.watchling.death",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/watchling/death_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/death_02",
+          "stream": false
+        }
+      ]
+  },
+  "entity.watchling.attack_beggined": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.watchling.attack_beggined",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/watchling/attack_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/attack_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/attack_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/attack_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.watchling.attack_applied": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.watchling.attack_applied",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/watchling/apply_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/apply_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/apply_03",
+          "stream": false
+        }
+      ]
+  },
+  "entity.watchling.attack_ended": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.watchling.attack_ended",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/watchling/calming_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/calming_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/calming_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/calming_04",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/calming_05",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/watchling/calming_06",
+          "stream": false
+        }
+      ]
+  },
+  "entity.blastling.projectile_blasted": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.blastling.projectile_blasted",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/blastling/blast_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/blastling/blast_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/blastling/blast_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/blastling/blast_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling.attack_preparation": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling.attack_preparation",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling/preparation_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/preparation_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/preparation_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/preparation_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling.angered": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling.angered",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling/angered_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/angered_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/angered_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/angered_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling.projectile_casted": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling.projectile_casted",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling/cast_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/cast_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/cast_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling/cast_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling_goop.deployment": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling_goop.deployment",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling_goop/deployment_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/deployment_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/deployment_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/deployment_04",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling_goop.player_slippering": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling_goop.player_slippering",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling_goop/slippering_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/slippering_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/slippering_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/slippering_04",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/slippering_05",
+          "stream": false
+        }
+      ]
+  },
+  "entity.snareling_goop.destruction": {
+    "replace": true,
+	"subtitle" : "mmdp.deformation:subtitle.entity.snareling_goop.destruction",
+      "sounds": [
+        {
+          "name": "mmdp.deformation:entities/snareling_goop/destruction_01",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/destruction_02",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/destruction_03",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/destruction_04",
+          "stream": false
+        },
+		{
+          "name": "mmdp.deformation:entities/snareling_goop/destruction_05",
+          "stream": false
+        }
+      ]
+  }
+}

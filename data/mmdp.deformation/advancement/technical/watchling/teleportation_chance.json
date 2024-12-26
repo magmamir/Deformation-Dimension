@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        ],
+        "entity": {
+          "type": "minecraft:iron_golem",
+          "nbt": "{Tags:[\"mmdp.deformation.mob.watchling\",\"mmdp.deformation.watchling.not_attacking\"]}"
+        }
+      }
+	}
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/mob_attacks/watchling/sound_and_other/random_tp_chance"
+  }
+}

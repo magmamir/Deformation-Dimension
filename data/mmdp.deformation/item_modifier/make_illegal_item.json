@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{mmdp:{deformation:{illegal_item:1b}}}"
+  }
+]

@@ -1,0 +1,105 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "top.magmamir.mmdp",
+		"id": "deformation_dimension",
+		"version": "1.0+1.21",
+		"metadata": {
+			"name": "Deformation Dimension",
+			"description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
+			"contributors": {
+				"magmamir": "Coder",
+				"_Sasha_Lapa_": "Artist"
+			},
+			"contact": {
+				"sources": "https://github.com/magmamir/Deformation-Dimension",
+				"issues": "https://github.com/magmamir/Deformation-Dimension/issues"
+			},
+			"icon": "pack.png",
+			"license": {
+				"name": "All Rights Reserved",
+				"id": "LicenseRef-All-Rights-Reserved",
+				"url": "https://en.wikipedia.org/wiki/All_rights_reserved"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": "*"
+			},
+			{
+				"id": "minecraft",
+				"versions": {
+					"any": [
+						"=1.21",
+						"=1.21.1"
+					]
+				}
+			},
+			{
+				"id": "disable_custom_worlds_advice",
+				"versions": "*",
+				"reason": "Required to disable warnings about 'experimental' datapack feautures",
+				"environment": "client"
+			},
+			{
+				"id": "continuity",
+				"versions": ">=3.0.0-beta.5",
+				"reason": "Required to display block textures in the dimension",
+				"environment": "client"
+			},
+			{
+				"id": "entity_texture_features",
+				"versions": ">=6.2.5",
+				"reason": "Required to display textures & models for custom mobs",
+				"environment": "client"
+			},
+			{
+				"id": "entity_model_features",
+				"versions": ">=2.4.0",
+				"reason": "Required to display textures & models for custom mobs",
+				"environment": "client"
+			},
+			{
+				"id": "citresewn",
+				"versions": ">=1.2.2+1.21",
+				"reason": "Required to display textures of custom items and blocks",
+				"environment": "client"
+			},
+			{
+				"id": "moremcmeta",
+				"versions": ">=1.21-4.5.0",
+				"reason": "Required to display animated textures for custom mobs",
+				"environment": "client",
+				"optional": true,
+				"unless": {
+					"id": "animatica",
+					"versions": "*",
+					"reason": "Duplicates functionality of MoreMcmeta. Slower",
+					"environment": "client",
+					"optional": true
+				}
+			},
+			{
+				"id": "polytone",
+				"versions": ">=1.21-3.1.0",
+				"reason": "Required to insert custom items in creative tabs",
+				"environment": "client",
+				"optional": true
+			}
+		],
+		"jars": [
+			"META-INF/jars/DisableCustomWorldsAdvice-6.0.jar"
+		]
+	},
+	"minecraft": {
+		"environment": "*"
+	},
+	"modmenu": {
+		"links": {
+			"modmenu.kofi": "https://ko-fi.com/magmamir",
+			"modmenu.modrinth": "https://modrinth.com/datapack/deformation-dimension"
+		}
+	}
+}

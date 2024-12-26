@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "looking_at": {
+        "type": "minecraft:iron_golem",
+        "nbt": "{Tags:[\"mmdp.deformation.mob.watchling\",\"mmdp.deformation.watchling.not_attacking\"]}",
+        "distance": {
+          "absolute": {
+            "min": 0,
+            "max": 64
+          }
+        }
+      }
+    }
+  }
+}

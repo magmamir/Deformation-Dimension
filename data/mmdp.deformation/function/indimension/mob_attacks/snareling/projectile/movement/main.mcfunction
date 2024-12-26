@@ -1,0 +1,2 @@
+execute if entity @s[tag=mmdp.deformation.snareling_projectile.first_half] run function mmdp.deformation:indimension/mob_attacks/snareling/projectile/movement/first_half
+execute if entity @s[tag=mmdp.deformation.snareling_projectile.second_half] run function mmdp.deformation:indimension/mob_attacks/snareling/projectile/movement/second_half

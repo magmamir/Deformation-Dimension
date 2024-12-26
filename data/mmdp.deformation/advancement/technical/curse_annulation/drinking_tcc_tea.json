@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"purity\"}}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:end_curse/curse_annulation/drinking_tcc_tea"
+  }
+}

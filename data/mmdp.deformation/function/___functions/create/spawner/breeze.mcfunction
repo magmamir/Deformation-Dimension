@@ -1,0 +1,3 @@
+setblock ~ ~ ~ spawner{SpawnCount:1,MinSpawnDelay:100,MaxSpawnDelay:350,MaxNearbyEntities:4,RequiredPlayerRange:16,\
+     SpawnPotentials:[{data:{custom_spawn_rules:{sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}},\
+     entity:{id:"minecraft:breeze",DeathLootTable:"mmdp.deformation:entities/breeze",Team:"mmdp.deformation_mobs",Tags:["mmdp.deformation_entity","mmdp.defromation.mob.breeze"]}},weight:1}]}

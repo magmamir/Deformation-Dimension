@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "dimension": "mmdp:deformation"
+    },
+    "movement": {
+      "speed": 0
+    }
+  }
+}

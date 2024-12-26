@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:painting",
+				  "variant": "mmdp.deformation:decision"
+                },
+                "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{decision:1b}}}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

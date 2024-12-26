@@ -1,0 +1,10 @@
+{
+    "animation": {
+        "interpolate": false,
+        "smoothAlpha": false,
+		"emissive": false,
+        "width": 16,
+        "height": 16,
+        "frametime": 1
+    }
+}

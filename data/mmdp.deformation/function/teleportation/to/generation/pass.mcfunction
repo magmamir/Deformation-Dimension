@@ -1,0 +1,2 @@
+setblock ~ ~ ~ minecraft:air
+execute as @n[type=marker,tag=mmdp.deformation.orchestrator.loading] if score @s mmdp.deformation.counter matches 1.. run scoreboard players remove @s mmdp.deformation.counter 1

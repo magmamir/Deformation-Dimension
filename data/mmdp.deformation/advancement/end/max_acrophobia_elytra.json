@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:enchantments": {
+          "mmdp.deformation:acrophobia": 3
+        }
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.max_acrophobia_elytra.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.max_acrophobia_elytra.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/get_acrophobia_book",
+  "criteria": {
+    "requirments": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "mmdp.deformation:acrophobia",
+                  "levels": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 350
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "pack_format": 1,
+    "description": [
+      {
+        "text": "• DeformationDimension (mod)\n",
+        "color": "#8c00b3",
+        "italic": false
+      },
+      {
+        "text": "by: ",
+        "color": "#383838",
+        "italic": true
+      },
+      {
+        "text": "magmamir, _Sasha_Lapa_",
+        "color": "#202020",
+        "italic": false
+      }
+    ],
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 1000
+    }
+  }
+}

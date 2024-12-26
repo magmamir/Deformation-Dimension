@@ -1,0 +1,8 @@
+{
+  "asset_id": "mmdp.deformation:transgression",
+  "description": {
+    "translate": "mmdp.deformation:trim_pattern.transgression"
+  },
+  "template_item": "minecraft:enderman_spawn_egg",
+  "decal": false
+}

@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": [
+                  "survival",
+                  "adventure"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mmdp.deformation.counter": {
+                  "max": -1
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:enderman",
+            "nbt": "{Tags:[\"mmdp.deformation.snareling.wandering_phase\"]}",
+            "location": {
+              "dimension": "mmdp:deformation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/mob_attacks/snareling/wandering/angering"
+  }
+}

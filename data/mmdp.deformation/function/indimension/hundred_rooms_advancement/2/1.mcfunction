@@ -1,0 +1,5 @@
+execute if entity @s[advancements={mmdp.deformation:end/visit_100_rooms={29=true}}] run return run advancement grant @s only mmdp.deformation:end/visit_100_rooms 30
+execute if entity @s[advancements={mmdp.deformation:end/visit_100_rooms={28=true}}] run return run advancement grant @s only mmdp.deformation:end/visit_100_rooms 29
+execute if entity @s[advancements={mmdp.deformation:end/visit_100_rooms={27=true}}] run return run advancement grant @s only mmdp.deformation:end/visit_100_rooms 28
+execute if entity @s[advancements={mmdp.deformation:end/visit_100_rooms={26=true}}] run return run advancement grant @s only mmdp.deformation:end/visit_100_rooms 27
+execute if entity @s[advancements={mmdp.deformation:end/visit_100_rooms={25=true}}] run return run advancement grant @s only mmdp.deformation:end/visit_100_rooms 26

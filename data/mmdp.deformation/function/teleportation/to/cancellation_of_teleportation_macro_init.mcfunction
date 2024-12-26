@@ -1,0 +1,1 @@
+$function mmdp.deformation:teleportation/to/cancellation_of_teleportation with storage mmdp:deformation player_base[{"player":$(UUID)}]

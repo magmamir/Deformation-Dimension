@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{acrophobia_enchanted_book:1b}}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/acrophobia_book_unmark/start"
+  }
+}

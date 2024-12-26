@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "mmdp.deformation:lore.enchantment.acrophobia",
+                  "color": "#6B6B6B",
+                  "italic": true
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "mmdp.deformation:acrophobia": 1
+                },
+                "minecraft:custom_data": "{mmdp:{deformation:{acrophobia_enchanted_book:1b}}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

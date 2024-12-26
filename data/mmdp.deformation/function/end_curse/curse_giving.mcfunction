@@ -1,0 +1,4 @@
+execute unless entity @s[tag=tcc.tea.purity] unless predicate mmdp.deformation:elytra_with_acrophobia/any run scoreboard players add @s mmdp.deformation.end_curse 150
+execute unless entity @s[tag=tcc.tea.purity] if predicate mmdp.deformation:elytra_with_acrophobia/1 run scoreboard players add @s mmdp.deformation.end_curse 15
+execute unless entity @s[tag=tcc.tea.purity] if predicate mmdp.deformation:elytra_with_acrophobia/2 run scoreboard players add @s mmdp.deformation.end_curse 3
+execute unless entity @s[tag=tcc.tea.purity] if predicate mmdp.deformation:elytra_with_acrophobia/3 run scoreboard players add @s mmdp.deformation.end_curse 1

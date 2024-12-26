@@ -1,0 +1,3 @@
+execute if entity @s[tag=mmdp.deformation.triggerdoor.1,tag=mmdp.deformation.triggerdoor.triggered] if block ~ ~ ~ lever[powered=true] run return run function mmdp.deformation:indimension/triggerdoors/do_action/close_passage_door
+execute if entity @s[tag=mmdp.deformation.triggerdoor.1,tag=!mmdp.deformation.triggerdoor.triggered] if block ~ ~ ~ lever[powered=false] run return run function mmdp.deformation:indimension/triggerdoors/do_action/open_passage_door
+execute if entity @s[tag=mmdp.deformation.triggerdoor.2] if block ~ ~ ~ stone_button[powered=true] run return run function mmdp.deformation:indimension/triggerdoors/do_action/destroy_parkourbox_wall

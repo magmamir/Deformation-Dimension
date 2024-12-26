@@ -1,0 +1,1 @@
+function mmdp.deformation:indimension/mob_spawn/command/trigger {type:"mobs",name:"missgeburt"}

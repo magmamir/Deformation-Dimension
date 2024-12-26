@@ -1,0 +1,105 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="LicenseRef-All-Rights-Reserved"
+showAsResourcePack=false
+showAsDataPack=false
+issueTrackerURL="https://github.com/magmamir/Deformation-Dimension/issues"
+
+
+[[mods]]
+  modId="deformation_dimension"
+  namespace="mmdp.deformation"
+  version="1.21-1.0"
+  displayName="Deformation Dimension"
+  updateJSONURL="https://api.modrinth.com/updates/deformation-dimension/forge_updates.json"
+  modUrl="https://modrinth.com/datapack/deformation-dimension"
+  displayURL="https://modrinth.com/datapack/deformation-dimension"
+  logoFile="pack.png"
+  logoBlur=false
+  authors="magmamir, _Sasha_Lapa_"
+  description='''
+Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.
+
+REQUIREMENTS:
+ - Minecraft 1.21.1
+ - Sinytra Connector
+ - Continuity (NEOFORGE version)
+ - [ETF] Entity Texture Features
+ - [EMF] Entity Model Features
+ - CIT Resewn (FABRIC version)
+ - CITResewnNeoPatcher
+ - MoreMcmeta (FABRIC version) [Optional, but highly recommended]
+ - Polytone (NEOFORGE version) [Optional, but highly recommended]
+'''
+
+
+[[dependencies.deformation_dimension]]
+  modId = "minecraft"
+  type = "required"
+  versionRange = "[1.21.1]"
+  ordering = "NONE"
+  side = "CLIENT"
+
+[[dependencies.deformation_dimension]]
+  modId = "connector"
+  type = "required"
+  versionRange = "[2.0.0-beta.1,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/connector"
+
+[[dependencies.deformation_dimension]]
+  modId = "entity_texture_features"
+  type = "required"
+  versionRange = "[6.2.5,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/entitytexturefeatures"
+
+[[dependencies.deformation_dimension]]
+  modId = "entity_model_features"
+  type = "required"
+  versionRange = "[2.4.0,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/entity-model-features"
+  
+[[dependencies.deformation_dimension]]
+  modId = "continuity"
+  type = "required"
+  versionRange = "[3.0.0+1.21,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/continuity"
+  
+[[dependencies.deformation_dimension]]
+  modId = "citresewn"
+  type = "required"
+  versionRange = "[1.2.2+1.21,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/cit-resewn"
+  
+[[dependencies.deformation_dimension]]
+  modId = "citresewn_neopatcher"
+  type = "required"
+  versionRange = "[1.1.0,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/cit-resewn-neopatcher"
+  
+[[dependencies.deformation_dimension]]
+  modId = "moremcmeta"
+  type = "optional"
+  versionRange = "[1.21-4.4.9-FABRIC,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/moremcmeta/version/v1.21.1-4.5.1-fabric"
+  
+[[dependencies.deformation_dimension]]
+  modId = "polytone"
+  type = "optional"
+  versionRange = "[1.21-3.1.0,)"
+  ordering = "NONE"
+  side = "CLIENT"
+  referralUrl="https://modrinth.com/mod/polytone"

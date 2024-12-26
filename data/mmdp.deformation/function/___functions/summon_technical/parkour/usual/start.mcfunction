@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["mmdp.deformation_entity","mmdp.deformation.parkour_marker","mmdp.deformation.parkour_marker.start","mmdp.deformation.parkour_marker.usual_room"]}

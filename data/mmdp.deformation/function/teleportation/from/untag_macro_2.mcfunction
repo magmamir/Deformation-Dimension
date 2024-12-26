@@ -1,0 +1,2 @@
+$execute as $(orchestrator) unless entity @s[tag=mmdp.deformation.orchestrator.destroyer] run scoreboard players add orchestrator_disassembles_dungeon mmdp.deformation.tech 1
+$tag $(orchestrator) add mmdp.deformation.orchestrator.destroyer

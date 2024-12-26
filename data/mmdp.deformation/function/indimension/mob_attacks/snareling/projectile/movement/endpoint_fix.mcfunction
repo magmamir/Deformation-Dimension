@@ -1,0 +1,2 @@
+execute as @n[type=item_display,tag=mmdp.deformation.snareling_goop,tag=mmdp.temp.same_id] positioned as @s rotated ~ 0 run tp @s ^ ^ ^0.2
+execute facing entity @n[type=item_display,tag=mmdp.deformation.snareling_goop,tag=mmdp.temp.same_id] feet run tp @s ^ ^ ^0.55 ~ ~

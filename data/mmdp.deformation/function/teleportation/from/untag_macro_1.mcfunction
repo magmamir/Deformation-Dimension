@@ -1,0 +1,1 @@
+$execute if data storage mmdp:deformation player_base[{"player":$(UUID)}] run function mmdp.deformation:teleportation/from/untag_macro_2 with storage mmdp:deformation player_base[{"player":$(UUID)}]

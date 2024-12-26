@@ -1,0 +1,224 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222981
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.visit_all_room_variations.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.visit_all_room_variations.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/visit_100_rooms",
+  "criteria": {
+    "starting_point/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/4": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/5": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/6": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/7": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/8": {
+      "trigger": "minecraft:impossible"
+    },
+	"starting_point/9": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/city/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/city/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/city/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/death_skull": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/obsidian_towers": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/dojo_pillars": {
+      "trigger": "minecraft:impossible"
+    },
+	"small_room/stalactites_n_stalagmites": {
+      "trigger": "minecraft:impossible"
+    },
+	"large_room/ethereal_sanctum/initial": {
+      "trigger": "minecraft:impossible"
+    },
+	"large_room/ethereal_sanctum/scratched": {
+      "trigger": "minecraft:impossible"
+    },
+	"large_room/ethereal_sanctum/ruined": {
+      "trigger": "minecraft:impossible"
+    },
+	"large_room/ethereal_sanctum/overgrown": {
+      "trigger": "minecraft:impossible"
+    },
+	"large_room/ethereal_sanctum/infested": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/plain": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/tiles": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/filled": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/rubbles": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/shrinked_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/shrinked_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"medium_room/shrinked_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/usual/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/usual/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/usual/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/invisible/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/invisible/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box/invisible/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/usual/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/usual/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/usual/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/invisible/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/invisible/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"parkour_box_corridor/invisible/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"breeze_room/autumn_passage/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"breeze_room/autumn_passage/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"breeze_room/autumn_passage/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"breeze_room/garage": {
+      "trigger": "minecraft:impossible"
+    },
+	"optional/copper_parkour": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/wide_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/wide_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/wide_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/wide_4": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/wide_5": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/slim_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/long/slim_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/shortened/wide_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/shortened/wide_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/shortened/wide_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/shortened/slim_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/shortened/slim_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/crossroad/1x4": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/crossroad/1x3": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/crossroad/1x2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/teleportation/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/teleportation/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/teleportation/3": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/continuation/1": {
+      "trigger": "minecraft:impossible"
+    },
+	"corridors/continuation/2": {
+      "trigger": "minecraft:impossible"
+    },
+	"central_room": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4999
+  }
+}

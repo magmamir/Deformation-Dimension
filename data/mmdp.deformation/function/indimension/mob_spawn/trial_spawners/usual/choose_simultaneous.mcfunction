@@ -1,0 +1,2 @@
+execute store result storage mmdp:deformation score_translation.mob_inserting byte 1 run random value 5..7
+data modify block ~ ~ ~ normal_config.simultaneous_mobs set from storage mmdp:deformation score_translation.mob_inserting

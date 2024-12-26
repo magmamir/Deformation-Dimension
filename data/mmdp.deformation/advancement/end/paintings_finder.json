@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:painting",
+      "components": {
+        "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{decision:1b}}}}"
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.paintings_finder.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.paintings_finder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/treasure_chest",
+  "criteria": {
+    "choice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:painting",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{choice:1b}}}}"
+            }
+          }
+        ]
+      }
+    },
+    "decision": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:painting",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{decision:1b}}}}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

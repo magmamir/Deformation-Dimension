@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222985
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.complete_the_dungeon.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.complete_the_dungeon.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/in_the_center",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

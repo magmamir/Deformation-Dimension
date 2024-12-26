@@ -1,0 +1,2 @@
+execute as @a[tag=mmdp.deformation.killed_watchling_attack_fix] unless entity @n[type=minecraft:iron_golem,tag=mmdp.deformation.mob.watchling,distance=..64] at @s run function mmdp.deformation:indimension/mob_attacks/watchling/main
+tag @a[tag=mmdp.deformation.killed_watchling_attack_fix] remove mmdp.deformation.killed_watchling_attack_fix

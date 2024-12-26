@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": "{}"
+    }
+  }
+]

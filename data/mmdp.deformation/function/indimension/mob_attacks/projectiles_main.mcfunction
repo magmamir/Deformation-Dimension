@@ -1,0 +1,4 @@
+execute if entity @s[tag=mmdp.deformation.blastling_projectile] run function mmdp.deformation:indimension/mob_attacks/blastling/projectile_movement
+execute if entity @s[tag=mmdp.deformation.snareling_projectile] run function mmdp.deformation:indimension/mob_attacks/snareling/projectile/movement/main
+execute if entity @s[tag=mmdp.deformation.snareling_goop.active] run function mmdp.deformation:indimension/mob_attacks/snareling/projectile/goop/main
+execute if entity @s[tag=mmdp.deformation.spawn_projectile] run function mmdp.deformation:indimension/mob_spawn/ominous_event/particle_circle/projectile_movement

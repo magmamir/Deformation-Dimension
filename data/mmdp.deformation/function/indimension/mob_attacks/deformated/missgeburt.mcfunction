@@ -1,0 +1,2 @@
+advancement revoke @s only mmdp.deformation:technical/deformated_mobs_attack/missgeburt
+execute at @n[type=spider,tag=mmdp.deformation.mob.missgeburt,distance=..8,nbt={HurtTime:10s}] run function mmdp.deformation:indimension/mob_attacks/deformated/missgeburt_duplication

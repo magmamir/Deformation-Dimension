@@ -1,0 +1,2 @@
+execute if predicate mmdp.deformation:no_movement run scoreboard players add @s mmdp.deformation.in_dimension 1
+execute unless predicate mmdp.deformation:no_movement run scoreboard players reset @s mmdp.deformation.in_dimension

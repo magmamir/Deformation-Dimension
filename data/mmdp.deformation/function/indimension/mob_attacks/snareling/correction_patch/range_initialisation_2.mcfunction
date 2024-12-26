@@ -1,0 +1,1 @@
+$execute if entity @p[distance=$(snareling_dist_1)..$(snareling_dist_2)] run function mmdp.deformation:indimension/mob_attacks/snareling/range/initialisation

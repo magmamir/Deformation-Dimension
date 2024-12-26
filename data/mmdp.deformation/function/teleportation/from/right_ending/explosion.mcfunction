@@ -1,0 +1,1 @@
+$execute positioned $(backTpPosX) $(backTpPosY) $(backTpPosZ) run summon creeper ~ ~1.5 ~ {ExplosionRadius:20b,Fuse:-1,PersistenceRequired:1b,NoAI:1b,Invulnerable:1b,Tags:["global.ignore","global.ignore.kill","global.ignore.pos","smithed.entity","smithed.strict","mmdp.deformation.returnback_explosion"]}

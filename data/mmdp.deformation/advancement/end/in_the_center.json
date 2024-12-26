@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222980
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.in_the_center.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.in_the_center.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/key_obtained",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

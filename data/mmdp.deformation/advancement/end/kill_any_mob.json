@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222987
+      }
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.kill_any_mob.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.kill_any_mob.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mmdp.deformation:end/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"mmdp.deformation.mob\"]}",
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        }
+      }
+    }
+  }
+}

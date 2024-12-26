@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "mmdp.deformation:advancement.treasure_chest.title"
+    },
+    "description": {
+      "translate": "mmdp.deformation:advancement.treasure_chest.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mmdp.deformation:end/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "loot_table": "mmdp.deformation:chests/treasure_chest"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+execute if score timer.2 mmdp.deformation.tech matches 0 as @n[tag=mmdp.deformation.mob_from_ominous,distance=..24] at @s run function mmdp.deformation:indimension/mob_spawn/ominous_event/main
+execute if score timer.2 mmdp.deformation.tech matches 0 if predicate mmdp.deformation:stare_at_unnoticed_mini_boss anchored eyes run function mmdp.deformation:indimension/mob_spawn/ominous_event/mini_boss/raycast
+execute as @e[tag=mmdp.deformation.mob.unnoticed_mini_boss,distance=..64] run function mmdp.deformation:indimension/mob_spawn/ominous_event/mini_boss/unnoticed_tick

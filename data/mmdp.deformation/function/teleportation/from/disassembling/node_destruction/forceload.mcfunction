@@ -1,0 +1,1 @@
+$execute positioned $(X) ~ $(Z) run forceload add ~24 ~24 ~-24 ~-24

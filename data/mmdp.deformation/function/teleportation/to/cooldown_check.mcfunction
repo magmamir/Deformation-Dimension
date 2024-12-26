@@ -1,0 +1,1 @@
+$execute if data storage mmdp:deformation player_base[{"player":$(UUID)}] run scoreboard players set temp.log.1 mmdp.deformation.tech 1

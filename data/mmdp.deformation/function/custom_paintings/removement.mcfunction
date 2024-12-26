@@ -1,0 +1,3 @@
+execute if entity @s[tag=mmdp.deformation.painting_custodian.choice] as @e[type=minecraft:item,limit=1,sort=nearest,distance=..15,nbt={Age:0s,Item:{id:"minecraft:painting",count:1}}] run function mmdp.deformation:custom_paintings/choice_drop
+execute if entity @s[tag=mmdp.deformation.painting_custodian.decision] as @e[type=minecraft:item,limit=1,sort=nearest,distance=..15,nbt={Age:0s,Item:{id:"minecraft:painting",count:1}}] run function mmdp.deformation:custom_paintings/decision_drop
+kill @s

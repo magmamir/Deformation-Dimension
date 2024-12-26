@@ -1,0 +1,1 @@
+$tag @n[type=iron_golem,tag=mmdp.deformation.watchling.attacking,nbt={UUID:$(source)}] add mmdp.temp.targeted_watchling

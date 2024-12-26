@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.025
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"mmdp.deformation.deformated_mob\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/mob_attacks/deformated/every_deformed"
+  }
+}

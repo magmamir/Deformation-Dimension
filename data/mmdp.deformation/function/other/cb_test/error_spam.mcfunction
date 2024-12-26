@@ -1,0 +1,2 @@
+tellraw @a[gamemode=!adventure,gamemode=!survival] [" ",{"bold":true,"color":"dark_purple","text":"[MMDP.deformation] "},{"color":"white","text":"ERROR: ","bold":false,"color":"red"},{"color":"gray","translate":"mmdp.deformation:chat.init_error.command_blocks_disabled"}]
+schedule function mmdp.deformation:other/cb_test/error_spam 1s replace

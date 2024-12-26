@@ -1,0 +1,4 @@
+execute positioned ~0.5 ~ ~ if entity @s[tag=mmdp.deformation_entrance.east] unless block ~ ~ ~ #mmdp.deformation:deformable_blocks run function mmdp.deformation:outdimensional_blocks/entrance_destroyed
+execute positioned ~-0.5 ~ ~ if entity @s[tag=mmdp.deformation_entrance.west] unless block ~ ~ ~ #mmdp.deformation:deformable_blocks run function mmdp.deformation:outdimensional_blocks/entrance_destroyed
+execute positioned ~ ~ ~0.5 if entity @s[tag=mmdp.deformation_entrance.south] unless block ~ ~ ~ #mmdp.deformation:deformable_blocks run function mmdp.deformation:outdimensional_blocks/entrance_destroyed
+execute positioned ~ ~ ~-0.5 if entity @s[tag=mmdp.deformation_entrance.north] unless block ~ ~ ~ #mmdp.deformation:deformable_blocks run function mmdp.deformation:outdimensional_blocks/entrance_destroyed

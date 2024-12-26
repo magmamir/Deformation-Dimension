@@ -1,0 +1,4 @@
+execute as @e[type=minecraft:enderman,tag=mmdp.deformation.mob.snareling,distance=..96] at @s run function mmdp.deformation:indimension/mob_attacks/snareling/snareling_main
+
+execute if entity @n[type=enderman,tag=mmdp.deformation.snareling.melee_phase,distance=..3] store result storage mmdp:deformation score_translation.snareling_count int 4 run execute if entity @e[type=enderman,tag=mmdp.deformation.snareling.melee_phase,distance=..3]
+execute if entity @n[type=enderman,tag=mmdp.deformation.snareling.melee_phase,distance=..3] run function mmdp.deformation:indimension/mob_attacks/snareling/melee/do_attack with storage mmdp:deformation score_translation

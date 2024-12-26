@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:painting",
+              "predicates": {
+                "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{choice:1b}}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:custom_paintings/choice_placement"
+  }
+}
