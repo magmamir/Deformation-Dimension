@@ -8,7 +8,7 @@ This datapack also introduces End Fever — a sickness that hampers flying with 
 
 ___
 It's highly recommended to use this datapack with [Optifine](https://www.optifine.net/downloads), [Fabulously Optimized](https://download.fo/), or the list of recommended mods to view the custom textures of blocks and mobs. 
-HOWEVER, it's totally optional, and the dungeon is playable without them just fine. I personally have made sure that the dungeon will look good even without custom textures.
+HOWEVER, it's totally optional, and the dungeon is playable without them just fine. I personally have made sure that the dungeon will look great even without custom textures.
 
 <details>
 <summary><h2>Recommended mods</h2></summary>
@@ -88,6 +88,7 @@ So far, this datapack has been translated into the following languages:
 <li>ru_ru — magmamir</li>
 <li>pl_pl — _Sasha_Lapa_</li>
 <li>uk_ua — _Sasha_Lapa_</li>
+<li>ko_kr — good7777865</li>
 </ul>
 If you'd like to help translate this datapack into your own language, feel free to create a pull request on <a href="https://github.com/magmamir/Deformation-Dimension">github</a>
 </details>
