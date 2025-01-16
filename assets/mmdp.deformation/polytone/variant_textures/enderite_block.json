@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:diamond_block"],
+   "textures": {
+      "minecraft:block/diamond_block": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/enderite_block/0"
+      }
+   }
+}

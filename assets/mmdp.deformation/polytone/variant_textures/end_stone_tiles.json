@@ -1,0 +1,14 @@
+{
+   "targets": ["minecraft:sandstone","minecraft:sandstone_slab","minecraft:sandstone_stairs","minecraft:sandstone_wall"],
+   "textures": {
+      "minecraft:block/sandstone": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone_tiles"
+      },
+      "minecraft:block/sandstone_top": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone_tiles"
+      },
+      "minecraft:block/sandstone_bottom": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone_tiles"
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:magenta_terracotta"],
+   "textures": {
+      "minecraft:block/magenta_terracotta": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/cracked_purpur_block"
+      }
+   }
+}

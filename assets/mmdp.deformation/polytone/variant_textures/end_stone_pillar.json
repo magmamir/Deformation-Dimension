@@ -1,0 +1,11 @@
+{
+   "targets": ["minecraft:stripped_birch_log"],
+   "textures": {
+      "minecraft:block/stripped_birch_log": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone_pillar/side"
+      },
+      "minecraft:block/stripped_birch_log_top": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone_pillar/top"
+      }
+   }
+}

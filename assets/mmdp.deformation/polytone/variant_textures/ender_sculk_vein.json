@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:sculk_vein"],
+   "textures": {
+      "minecraft:block/sculk_vein": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_sculk_vein"
+      }
+   }
+}

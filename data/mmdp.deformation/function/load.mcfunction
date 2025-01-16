@@ -8,6 +8,8 @@ scoreboard objectives add mmdp.deformation.teleportation dummy
 scoreboard objectives add mmdp.deformation.in_dimension dummy
 scoreboard objectives add mmdp.deformation.evacuate trigger
 
+function mmdp.deformation:updater/version_set
+
 scoreboard players reset * mmdp.deformation.end_curse
 scoreboard players set timer.2 mmdp.deformation.tech 0
 scoreboard players set timer.5 mmdp.deformation.tech 0

@@ -15,7 +15,7 @@ execute store result storage mmdp:deformation temp.random_pos_2 int 1024 run ran
 
 function mmdp.deformation:teleportation/to/data_logging with storage mmdp:deformation temp
 
-attribute @s minecraft:generic.movement_speed modifier add mmdp.deformation:teleportation_to_dimension -0.9 add_multiplied_base
+attribute @s minecraft:movement_speed modifier add mmdp.deformation:teleportation_to_dimension -0.9 add_multiplied_base
 effect give @s minecraft:darkness 9 0 true
 execute as @n[type=interaction,tag=mmdp.deformation_entrance.interaction,tag=mmdp.deformation_entrance.active,distance=..16] run tag @s remove mmdp.deformation_entrance.active
 execute as @n[type=item_display,tag=mmdp.deformation_entrance.button,tag=mmdp.deformation_entrance.active,distance=..16] run data modify entity @s transformation.translation set value [0.0f,0.175f,0.04f]

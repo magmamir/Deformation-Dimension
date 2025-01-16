@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:purple_glazed_terracotta"],
+   "textures": {
+      "minecraft:block/purple_glazed_terracotta": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/purpur_glazed_tiles"
+      }
+   }
+}

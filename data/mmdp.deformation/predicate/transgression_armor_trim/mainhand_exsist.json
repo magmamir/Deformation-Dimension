@@ -6,7 +6,7 @@
       "mainhand": {
         "items": "minecraft:enderman_spawn_egg",
         "predicates": {
-          "minecraft:custom_data": "{mmdp:{deformation:{transgression_armor_trim:1b}}}"
+          "minecraft:custom_data": "{mmdp:{deformation:{transgression_armor_trim:2b}}}"
         }
       }
     }

@@ -1,0 +1,56 @@
+{
+  "targets": ["minecraft:combat"],
+  "additions": [
+    {
+      "items": [
+        {
+          "id":"minecraft:tipped_arrow",
+          "count": 1,
+          "components": {
+            "minecraft:lore": [
+              "[{\"color\":\"red\",\"italic\":false,\"translate\":\"effect.minecraft.blindness\"},{\"text\":\" (0:12)\"}]",
+              "[{\"color\":\"red\",\"italic\":false,\"translate\":\"effect.minecraft.weakness\"},{\"text\":\" (0:06)\"}]"
+            ],
+            "minecraft:custom_data": "{ctc:{id:\"delusioner_tipped_arrow\",from:\"mmdp:deformation\",traits:{\"item\":1b,\"arrow\":1b,\"tipped_arrow\":1b}},mmdp:{deformation:{delusioner_arrow:2b}}}",
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:potion_contents": {
+              "custom_color": 1114388,
+              "custom_name": "delusioner_arrow",
+              "custom_effects": [
+                {
+                  "id": "minecraft:blindness",
+                  "amplifier": 0,
+                  "duration": 240,
+                  "ambient": false,
+                  "show_particles": true,
+                  "show_icon": true
+                },
+                {
+                  "id": "minecraft:weakness",
+                  "amplifier": 0,
+                  "duration": 120,
+                  "ambient": false,
+                  "show_particles": true,
+                  "show_icon": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "itemstack_match",
+        "itemstack": {
+          "id": "minecraft:tipped_arrow",
+          "count": 1,
+          "components":{
+            "minecraft:potion_contents": {
+              "potion": "minecraft:wind_charged"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

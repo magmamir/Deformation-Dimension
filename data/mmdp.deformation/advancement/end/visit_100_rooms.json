@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:jigsaw",
       "components": {
-        "minecraft:custom_model_data": 222982
+        "minecraft:item_model":"mmdp.deformation:advancement_icons",
+        "minecraft:custom_model_data":3
       }
     },
     "title": {
@@ -321,6 +322,6 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "experience": 500
   }
 }

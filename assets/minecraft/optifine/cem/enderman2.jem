@@ -238,8 +238,6 @@
 					"body.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
 					"head.tz": "1+sin(limb_swing * 1) * limb_speed * 0.75",
 					"head.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
-					"headwear.tz": "1+sin(limb_swing * 1) * limb_speed * 0.75",
-					"headwear.ty": "-15+cos(limb_swing * 1) * limb_speed * 0.5",
 					"right_arm_comp.rz": "if(var.do_attack > 0,sin(age*0.375)*0.075,(sin(age * 0.1) * 0.055 + 0.05))",
 					"left_arm_comp.rz": "if(var.do_attack > 0,-sin(age*0.375)*0.075,(-sin(age * 0.1) * 0.055 - 0.05))",
 					"right_arm_stump.rx": "if(var.do_attack > 0,-acos(cos(right_arm_comp.rx-1))/2,0)",

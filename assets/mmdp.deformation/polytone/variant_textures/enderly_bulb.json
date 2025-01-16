@@ -1,0 +1,11 @@
+{
+   "targets": ["minecraft:verdant_froglight"],
+   "textures": {
+      "minecraft:block/verdant_froglight_top": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/enderly_bulb"
+      },
+      "minecraft:block/verdant_froglight_side": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/enderly_bulb"
+      }
+   }
+}

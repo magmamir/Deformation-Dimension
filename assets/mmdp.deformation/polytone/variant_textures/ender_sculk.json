@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:sculk"],
+   "textures": {
+      "minecraft:block/sculk": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_sculk"
+      }
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "targets": ["minecraft:grass_block"],
+   "textures": {
+      "minecraft:block/grass_block_side_overlay": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/grassed_end_stone/overlay"
+      },
+      "minecraft:block/grass_block_side": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/grassed_end_stone/side"
+      },
+      "minecraft:block/grass_block_snow": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/grassed_end_stone/snowed_side"
+      },
+	  "minecraft:block/dirt": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone"
+      }
+   }
+}

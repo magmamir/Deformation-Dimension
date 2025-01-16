@@ -3,13 +3,14 @@
 	"quilt_loader": {
 		"group": "top.magmamir.mmdp",
 		"id": "deformation_dimension",
-		"version": "1.0+1.21",
+		"version": "1.0.1+1.21.2",
 		"metadata": {
 			"name": "Deformation Dimension",
 			"description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
 			"contributors": {
 				"magmamir": "Coder",
-				"_Sasha_Lapa_": "Artist"
+				"_Sasha_Lapa_": "Artist",
+				"good7777865": "Translator"
 			},
 			"contact": {
 				"sources": "https://github.com/magmamir/Deformation-Dimension",
@@ -19,7 +20,7 @@
 			"license": {
 				"name": "All Rights Reserved",
 				"id": "LicenseRef-All-Rights-Reserved",
-				"url": "https://en.wikipedia.org/wiki/All_rights_reserved"
+				"url": "https://github.com/magmamir/Deformation-Dimension/blob/main/LICENSE"
 			}
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
@@ -32,8 +33,8 @@
 				"id": "minecraft",
 				"versions": {
 					"any": [
-						"=1.21",
-						"=1.21.1"
+						"=1.21.2",
+						"=1.21.3"
 					]
 				}
 			},
@@ -45,13 +46,13 @@
 			},
 			{
 				"id": "continuity",
-				"versions": ">=3.0.0-beta.5",
+				"versions": ">=3.0.0",
 				"reason": "Required to display block textures in the dimension",
 				"environment": "client"
 			},
 			{
 				"id": "entity_texture_features",
-				"versions": ">=6.2.5",
+				"versions": ">=6.2.6",
 				"reason": "Required to display textures & models for custom mobs",
 				"environment": "client"
 			},
@@ -62,14 +63,8 @@
 				"environment": "client"
 			},
 			{
-				"id": "citresewn",
-				"versions": ">=1.2.2+1.21",
-				"reason": "Required to display textures of custom items and blocks",
-				"environment": "client"
-			},
-			{
 				"id": "moremcmeta",
-				"versions": ">=1.21-4.5.0",
+				"versions": "*",
 				"reason": "Required to display animated textures for custom mobs",
 				"environment": "client",
 				"optional": true,
@@ -83,7 +78,7 @@
 			},
 			{
 				"id": "polytone",
-				"versions": ">=1.21-3.1.0",
+				"versions": ">=1.21.3-2.5.10",
 				"reason": "Required to insert custom items in creative tabs",
 				"environment": "client",
 				"optional": true

@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:brown_mushroom"],
+   "textures": {
+      "minecraft:block/brown_mushroom": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_sprout"
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:andesite_wall"],
+   "textures": {
+      "minecraft:block/andesite": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/quartz_block"
+      }
+   }
+}

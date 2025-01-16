@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing_trim",
-  "template": {
-    "item": "minecraft:enderman_spawn_egg"
-  },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
-  },
-  "addition": {
-    "tag": "mmdp.deformation:trim_materials"
-  }
+  "template": "minecraft:enderman_spawn_egg",
+  "base": "#minecraft:trimmable_armor",
+  "addition": "#mmdp.deformation:trim_materials"
 }

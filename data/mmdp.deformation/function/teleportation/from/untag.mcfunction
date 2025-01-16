@@ -22,13 +22,13 @@ tag @s remove mmdp.deformation.golden_chorus_consumed
 tag @s remove mmdp.deformation.in_ominous_event
 
 tag @s remove mmdp.deformation.in_snareling_goop
-attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:snareling_goop.speed
-attribute @s minecraft:generic.jump_strength modifier remove mmdp.deformation:snareling_goop.jump
-attribute @s minecraft:generic.knockback_resistance modifier remove mmdp.deformation:snareling_goop.knockback
+attribute @s minecraft:movement_speed modifier remove mmdp.deformation:snareling_goop.speed
+attribute @s minecraft:jump_strength modifier remove mmdp.deformation:snareling_goop.jump
+attribute @s minecraft:knockback_resistance modifier remove mmdp.deformation:snareling_goop.knockback
 
-attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:under_watchling_eye
-attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:teleportation_to_dimension
-attribute @s minecraft:generic.fall_damage_multiplier modifier remove mmdp.deformation:parkour_guardian
+attribute @s minecraft:movement_speed modifier remove mmdp.deformation:under_watchling_eye
+attribute @s minecraft:movement_speed modifier remove mmdp.deformation:teleportation_to_dimension
+attribute @s minecraft:fall_damage_multiplier modifier remove mmdp.deformation:parkour_guardian
 
 scoreboard players reset @s mmdp.deformation.teleportation
 scoreboard players reset @s mmdp.deformation.in_dimension

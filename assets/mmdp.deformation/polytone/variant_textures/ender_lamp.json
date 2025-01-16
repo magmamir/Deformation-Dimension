@@ -1,0 +1,11 @@
+{
+   "targets": ["minecraft:redstone_lamp"],
+   "textures": {
+      "minecraft:block/redstone_lamp": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_lamp"
+      },
+      "minecraft:block/redstone_lamp_on": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_lamp_on"
+      }
+   }
+}

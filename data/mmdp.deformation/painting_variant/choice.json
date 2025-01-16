@@ -1,5 +1,13 @@
 {
   "asset_id": "mmdp.deformation:choice",
   "width": 2,
-  "height": 2
+  "height": 2,
+  "title": {
+    "translate": "mmdp.deformation:painting.choice",
+    "color": "dark_purple"
+  },
+  "author": {
+    "text": "_Sasha_Lapa_",
+    "color": "gray"
+  }
 }

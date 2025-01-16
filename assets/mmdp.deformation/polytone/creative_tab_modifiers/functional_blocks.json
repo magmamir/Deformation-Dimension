@@ -1,0 +1,38 @@
+{
+  "targets": ["minecraft:functional_blocks"],
+  "additions": [
+    {
+      "items": [
+        {
+          "id":"minecraft:painting",
+          "count": 1,
+          "components":{
+            "minecraft:entity_data": {
+              "id": "minecraft:painting",
+              "variant": "mmdp.deformation:choice"
+            },
+            "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{choice:1b}}}}"
+		  }
+	    },
+        {
+          "id":"minecraft:painting",
+          "count": 1,
+          "components":{
+            "minecraft:entity_data": {
+              "id": "minecraft:painting",
+              "variant": "mmdp.deformation:decision"
+            },
+            "minecraft:custom_data": "{mmdp:{deformation:{custom_painting:{decision:1b}}}}"
+		  }
+	    }
+      ],
+	  "before": false,
+	  "predicate": {
+	    "type": "items_match",
+	    "items": [
+	      "minecraft:painting"
+	    ]
+	  }
+    }
+  ]
+}

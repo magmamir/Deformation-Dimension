@@ -1,0 +1,67 @@
+{
+  "criteria": {
+    "deformation_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "last_game_version"
+              },
+              "score": "mmdp.deformation.tech"
+            },
+            "range": 48
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+            }
+          }
+        ]
+      }
+    },
+    "transgression_armor_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "last_game_version"
+              },
+              "score": "mmdp.deformation.tech"
+            },
+            "range": 48
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:enderman_spawn_egg",
+            "predicates": {
+              "minecraft:custom_data": "{mmdp:{deformation:{transgression_armor_trim:1b}}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deformation_key",
+      "transgression_armor_trim"
+    ]
+  ],
+  "rewards": {
+    "function": "mmdp.deformation:updater/g/48_to_57/items_update_1"
+  }
+}

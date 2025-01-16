@@ -8,7 +8,7 @@
             "mainhand": {
               "items": "minecraft:structure_block",
               "predicates": {
-                "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+                "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:2b}}}"
               }
             }
           }
@@ -16,7 +16,7 @@
         "item": {
           "items": "minecraft:structure_block",
           "predicates": {
-            "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+            "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:2b}}}"
           }
         },
         "entity": {

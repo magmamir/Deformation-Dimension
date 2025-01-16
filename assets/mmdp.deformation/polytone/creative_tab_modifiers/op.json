@@ -1,0 +1,29 @@
+{
+  "targets": ["minecraft:op_blocks"],
+  "removals": [
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id":"minecraft:painting",
+        "components":{
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "mmdp.deformation:choice"
+          }
+        }
+      }
+    },
+	{
+      "type": "itemstack_match",
+      "itemstack": {
+        "id":"minecraft:painting",
+        "components":{
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "mmdp.deformation:decision"
+          }
+        }
+      }
+    }
+  ]
+}
