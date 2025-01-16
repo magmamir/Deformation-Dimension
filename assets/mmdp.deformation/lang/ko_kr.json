@@ -1,4 +1,6 @@
 {
+  "mmdp.deformation:Version": "1.0.1+1.21",
+  
   "mmdp.deformation:item.deformation_key": "변형 열쇠",
   "mmdp.deformation:item.delusioner_arrow": "망상의 화살",
   "mmdp.deformation:item.transgression_armor_trim": "대장장이 형판",

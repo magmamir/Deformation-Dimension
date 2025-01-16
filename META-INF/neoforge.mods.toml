@@ -9,14 +9,20 @@ issueTrackerURL="https://github.com/magmamir/Deformation-Dimension/issues"
 [[mods]]
   modId="deformation_dimension"
   namespace="mmdp.deformation"
-  version="1.21-1.0"
+  version="1.21-1.0.1"
   displayName="Deformation Dimension"
-  updateJSONURL="https://api.modrinth.com/updates/deformation-dimension/forge_updates.json"
+  updateJSONURL="https://api.modrinth.com/updates/deformation-dimension/forge_updates.json?neoforge=include"
   modUrl="https://modrinth.com/datapack/deformation-dimension"
   displayURL="https://modrinth.com/datapack/deformation-dimension"
   logoFile="pack.png"
   logoBlur=false
   authors="magmamir, _Sasha_Lapa_"
+  credits='''
+  
+  magmamir — Coder
+  _Sasha_Lapa_ — Artist
+  good7777865 — Translator (ko_kr)'''
+
   description='''
 Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.
 
@@ -38,7 +44,7 @@ REQUIREMENTS:
   type = "required"
   versionRange = "[1.21.1]"
   ordering = "NONE"
-  side = "CLIENT"
+  side = "BOTH"
 
 [[dependencies.deformation_dimension]]
   modId = "connector"

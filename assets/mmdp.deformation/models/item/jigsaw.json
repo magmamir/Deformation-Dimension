@@ -11,13 +11,13 @@
       "predicate": {
         "custom_model_data": 222981
       },
-      "model": "mmdp.deformation:item/icon_light_enderly_bulb"
+      "model": "mmdp.deformation:item/icon_enderly_bulb"
     },
     {
       "predicate": {
         "custom_model_data": 222982
       },
-      "model": "mmdp.deformation:item/icon_end_stone_tiles"
+      "model": "mmdp.deformation:item/icon_light_enderly_bulb"
     },
     {
       "predicate": {
@@ -35,7 +35,7 @@
       "predicate": {
         "custom_model_data": 222985
       },
-      "model": "mmdp.deformation:item/icon_smooth_end_stone"
+      "model": "mmdp.deformation:item/icon_end_sprout"
     },
     {
       "predicate": {
