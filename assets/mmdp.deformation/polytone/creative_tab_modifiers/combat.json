@@ -1,4 +1,5 @@
 {
+  "targets": ["minecraft:combat"],
   "additions": [
     {
       "items": [

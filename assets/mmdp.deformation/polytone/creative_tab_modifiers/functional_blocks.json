@@ -1,4 +1,5 @@
 {
+  "targets": ["minecraft:functional_blocks"],
   "additions": [
     {
       "items": [
