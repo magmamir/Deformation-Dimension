@@ -24,6 +24,6 @@ gamerule commandBlockOutput false
 team add mmdp.deformation_mobs
 team modify mmdp.deformation_mobs friendlyFire false
 
-#execute unless entity @n[type=minecraft:marker,tag=mmdp.deformation.orchestrator] in mmdp:deformation run forceload remove all
 function mmdp.deformation:indimension/mob_spawn/init
 function mmdp.deformation:other/cb_test/first
+schedule function mmdp.deformation:other/dimension_unload 5s
