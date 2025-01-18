@@ -1,10 +1,12 @@
-{	
-	"mmdp.deformation:item.deformation_key" : "Klucz Deformacji",
-	"mmdp.deformation:item.delusioner_arrow" : "Strzała Iluzji",
-	"mmdp.deformation:item.transgression_armor_trim" : "Kowalski szablon",
-	"mmdp.deformation:trim_pattern.transgression" : "Wykończenie «Transgresja»",
-	"mmdp.deformation:enchantment.acrophobia" : "Akrofobi”",
-	"mmdp.deformation:lore.enchantment.acrophobia" : "• Wygląda na to, że to pomaga w lotach na duże odległości w wymiarze Endu",
+{
+	"mmdp.deformation:Version": "1.0.1+1.21",
+	
+	"mmdp.deformation:item.deformation_key": "Klucz Deformacji",
+	"mmdp.deformation:item.delusioner_arrow": "Strzała Iluzji",
+	"mmdp.deformation:item.transgression_armor_trim": "Kowalski szablon",
+	"mmdp.deformation:trim_pattern.transgression": "Wykończenie «Transgresja»",
+	"mmdp.deformation:enchantment.acrophobia": "Akrofobi”",
+	"mmdp.deformation:lore.enchantment.acrophobia": "• Wygląda na to, że to pomaga w lotach na duże odległości w wymiarze Endu",
 	"mmdp.deformation:chat.entrance_message.1-1": "Wkraczasz do wymiaru Deformacji — krainy pradawnych niebezpieczeństw i miejsca tworzenia %s",
 	"mmdp.deformation:chat.entrance_message.1-2": "Elytra",
 	"mmdp.deformation:chat.entrance_message.2": "Zaleca się zainstalowanie %s lub %s, aby uzyskać pełniejsze doświadczenie.",

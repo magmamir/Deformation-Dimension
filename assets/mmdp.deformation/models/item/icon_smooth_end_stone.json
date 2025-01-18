@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "mmdp.deformation:item/icon_smooth_end_stone"
-  }
-}

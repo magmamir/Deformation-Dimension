@@ -1,10 +1,12 @@
 {
-	"mmdp.deformation:item.deformation_key" : "Ключ Деформації",
-	"mmdp.deformation:item.delusioner_arrow" : "Стріла Ілюзії",
-	"mmdp.deformation:item.transgression_armor_trim" : "Шаблон ковальства",
-	"mmdp.deformation:trim_pattern.transgression" : "Обробка «Трансгресія»",
-	"mmdp.deformation:enchantment.acrophobia" : "Акрофобія",
-	"mmdp.deformation:lore.enchantment.acrophobia" : "• Здається, це допомагає при польотах на великі відстані в вимірі Енду",
+	"mmdp.deformation:Version": "1.0.1+1.21",
+	
+	"mmdp.deformation:item.deformation_key": "Ключ Деформації",
+	"mmdp.deformation:item.delusioner_arrow": "Стріла Ілюзії",
+	"mmdp.deformation:item.transgression_armor_trim": "Шаблон ковальства",
+	"mmdp.deformation:trim_pattern.transgression": "Обробка «Трансгресія»",
+	"mmdp.deformation:enchantment.acrophobia": "Акрофобія",
+	"mmdp.deformation:lore.enchantment.acrophobia": "• Здається, це допомагає при польотах на великі відстані в вимірі Енду",
 	"mmdp.deformation:chat.entrance_message.1-1": "Ви входите в вимір Деформації — землю прадавніх небезпек і місце створення %s",
 	"mmdp.deformation:chat.entrance_message.1-2": "Елітр",
 	"mmdp.deformation:chat.entrance_message.2": "Рекомендується встановити %s або %s для більш повного досвіду.",

@@ -1,4 +1,6 @@
 {
+	"mmdp.deformation:Version": "1.0.1+1.21",
+	
 	"mmdp.deformation:item.deformation_key" : "Ключ Деформации",
 	"mmdp.deformation:item.delusioner_arrow" : "Стрела Морока",
 	"mmdp.deformation:item.transgression_armor_trim" : "Кузнечный шаблон",
@@ -49,9 +51,9 @@
 	"mmdp.deformation:advancement.new_game_plus.title" : "Новая игра+",
 	"mmdp.deformation:advancement.new_game_plus.description" : "Вернитесь в измерение Деформации после успеха в предыдущем забеге",
 	"mmdp.deformation:advancement.succeed_ten_times.title" : "Усталый путник",
-	"mmdp.deformation:advancement.succeed_ten_times.description" : "Пройдите измерения 10 раз. Теперь это наверное зависимость",
-	"mmdp.deformation:advancement.visit_100_rooms.title" : "Дорога к сотне!",
-	"mmdp.deformation:advancement.visit_100_rooms.description" : "Посетите 100 комнат данжа. Кто зает, что вы встретите на этом пути…",
+	"mmdp.deformation:advancement.succeed_ten_times.description" : "Пройдите измерение 10 раз. Теперь это похоже на зависимость",
+	"mmdp.deformation:advancement.visit_100_rooms.title" : "Сквозь сотню врат",
+	"mmdp.deformation:advancement.visit_100_rooms.description" : "Посетите 100 комнат данжа. Кто знает, что вы встретите на этом пути…",
 	"mmdp.deformation:advancement.visit_all_room_variations.title" : "Проблема сбощика купонов",
 	"mmdp.deformation:advancement.visit_all_room_variations.description" : "Этот датапак содержит 66 вариаций комнат. В среднем на весь данж генерируется 20-28 комнат. Сколько раз необходимо посетить данж, чтобы увидеть все вариации?",
 	"mmdp.deformation:entity.blastling" : "Подрыватель",

@@ -1,4 +1,6 @@
 {
+	"mmdp.deformation:Version": "1.0.1+1.21",
+	
 	"mmdp.deformation:item.deformation_key" : "Deformation Key",
 	"mmdp.deformation:item.delusioner_arrow" : "Delusioner Arrow",
 	"mmdp.deformation:item.transgression_armor_trim" : "Smithing Template",

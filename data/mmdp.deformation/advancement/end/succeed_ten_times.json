@@ -49,5 +49,8 @@
 	"tenth": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 2500
   }
 }

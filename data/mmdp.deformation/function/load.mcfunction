@@ -8,6 +8,8 @@ scoreboard objectives add mmdp.deformation.teleportation dummy
 scoreboard objectives add mmdp.deformation.in_dimension dummy
 scoreboard objectives add mmdp.deformation.evacuate trigger
 
+function mmdp.deformation:updater/version_set
+
 scoreboard players reset * mmdp.deformation.end_curse
 scoreboard players set timer.2 mmdp.deformation.tech 0
 scoreboard players set timer.5 mmdp.deformation.tech 0
@@ -22,6 +24,6 @@ gamerule commandBlockOutput false
 team add mmdp.deformation_mobs
 team modify mmdp.deformation_mobs friendlyFire false
 
-#execute unless entity @n[type=minecraft:marker,tag=mmdp.deformation.orchestrator] in mmdp:deformation run forceload remove all
 function mmdp.deformation:indimension/mob_spawn/init
 function mmdp.deformation:other/cb_test/first
+schedule function mmdp.deformation:other/dimension_unload 5s
