@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:slime_block"],
+   "textures": {
+      "minecraft:block/slime_block": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_slime"
+      }
+   }
+}

@@ -1,0 +1,1 @@
+$particle trail{color:[0.878,0.827,0.078],target:$(Pos)} ~ ~0.9 ~ 0.25 1 0.25 0 20 force @p

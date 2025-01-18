@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:black_glazed_terracotta"],
+   "textures": {
+      "minecraft:block/black_glazed_terracotta": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/darkness_glazed_tiles"
+      }
+   }
+}

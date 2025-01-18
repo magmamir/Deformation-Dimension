@@ -1,0 +1,8 @@
+end_stone_brick_slab[type=double] : cracked_end_stone_bricks
+purpur_slab[type=double] : polished_purpur_block
+smooth_sandstone_slab[type=double] : end_rocks
+stripped_birch_wood[axis=x] : old_smooth_end_stone
+stripped_birch_wood[axis=y] : polished_end_stone
+
+connectivity/enderite_block
+connectivity/doors_keyhole

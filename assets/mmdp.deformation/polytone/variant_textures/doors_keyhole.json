@@ -1,0 +1,14 @@
+{
+   "targets": ["minecraft:dropper"],
+   "textures": {
+      "minecraft:block/dropper_front": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/doors_keyhole/face"
+      },
+	  "minecraft:block/furnace_side": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/doors_keyhole/side"
+      },
+	  "minecraft:block/furnace_top": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/doors_keyhole/side"
+      }
+   }
+}

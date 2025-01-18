@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:soul_lantern"],
+   "textures": {
+      "minecraft:block/soul_lantern": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/ender_lantern"
+      }
+   }
+}

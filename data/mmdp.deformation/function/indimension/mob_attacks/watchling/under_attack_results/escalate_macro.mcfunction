@@ -1,2 +1,2 @@
-$execute if score @s mmdp.deformation.counter matches 1..9 run attribute @s minecraft:generic.movement_speed modifier add mmdp.deformation:under_watchling_eye -0.0$(watchling_attack) add_multiplied_total
-$execute if score @s mmdp.deformation.counter matches 10..99 run attribute @s minecraft:generic.movement_speed modifier add mmdp.deformation:under_watchling_eye -0.$(watchling_attack) add_multiplied_total
+$execute if score @s mmdp.deformation.counter matches 1..9 run attribute @s minecraft:movement_speed modifier add mmdp.deformation:under_watchling_eye -0.0$(watchling_attack) add_multiplied_total
+$execute if score @s mmdp.deformation.counter matches 10..99 run attribute @s minecraft:movement_speed modifier add mmdp.deformation:under_watchling_eye -0.$(watchling_attack) add_multiplied_total

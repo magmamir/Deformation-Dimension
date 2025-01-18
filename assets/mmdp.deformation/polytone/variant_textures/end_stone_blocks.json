@@ -1,0 +1,11 @@
+{
+   "targets": ["minecraft:birch_slab","minecraft:birch_stairs","minecraft:birch_fence","minecraft:birch_fence_gate","minecraft:dirt"],
+   "textures": {
+      "minecraft:block/birch_planks": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone"
+      },
+	  "minecraft:block/dirt": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/end_stone"
+      }
+   }
+}

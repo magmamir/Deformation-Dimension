@@ -1,0 +1,14 @@
+{
+   "targets": ["minecraft:reinforced_deepslate"],
+   "textures": {
+      "minecraft:block/reinforced_deepslate_bottom": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/pedestal/bottom"
+      },
+	  "minecraft:block/reinforced_deepslate_side": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/pedestal/side"
+      },
+	  "minecraft:block/reinforced_deepslate_top": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/pedestal/top"
+      }
+   }
+}

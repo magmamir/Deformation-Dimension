@@ -1,0 +1,36 @@
+{
+   "targets": ["minecraft:trial_spawner"],
+   "textures": {
+      "minecraft:block/trial_spawner_side_inactive": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/normal_inactive_side"
+      },
+	  "minecraft:block/trial_spawner_top_inactive": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/normal_inactive_top"
+      },
+	  "minecraft:block/trial_spawner_side_active": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/normal_side"
+      },
+	  "minecraft:block/trial_spawner_top_active": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/normal_top"
+      },
+	  "minecraft:block/trial_spawner_top_ejecting_reward": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/normal_top_ejecting"
+      },
+	  
+	  "minecraft:block/trial_spawner_side_inactive_ominous": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/ominous_inactive_side"
+      },
+	  "minecraft:block/trial_spawner_top_inactive_ominous": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/ominous_inactive_top"
+      },
+	  "minecraft:block/trial_spawner_side_active_ominous": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/ominous_side"
+      },
+	  "minecraft:block/trial_spawner_top_active_ominous": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/ominous_top"
+      },
+	  "minecraft:block/trial_spawner_top_ejecting_reward_ominous": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/trial_spawner/ominous_top_ejecting"
+      }
+   }
+}

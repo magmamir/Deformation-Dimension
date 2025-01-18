@@ -3,8 +3,7 @@
     "icon": {
       "id": "minecraft:structure_block",
       "components": {
-        "minecraft:custom_model_data": 222971,
-        "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+        "minecraft:item_model":"mmdp.deformation:deformation_key"
       }
     },
     "title": {
@@ -32,7 +31,7 @@
           {
             "items": "minecraft:structure_block",
             "predicates": {
-              "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:1b}}}"
+              "minecraft:custom_data": "{mmdp:{deformation:{deformation_key:2b}}}"
             }
           }
         ]

@@ -1,0 +1,23 @@
+{
+  "parent": "block/jigsaw",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mmdp.deformation:block/deformation_entrance_passive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mmdp.deformation:block/deformation_entrance_active"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mmdp.deformation:block/deformation_entrance_block"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:black_wool"],
+   "textures": {
+      "minecraft:block/black_wool": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/parkour_floor"
+      }
+   }
+}

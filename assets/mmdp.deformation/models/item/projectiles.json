@@ -1,0 +1,23 @@
+{
+  "parent": "block/jigsaw",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mmdp.deformation:projectile/blastling_blast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mmdp.deformation:projectile/snareling_cast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mmdp.deformation:projectile/snareling_goop"
+    }
+  ]
+}

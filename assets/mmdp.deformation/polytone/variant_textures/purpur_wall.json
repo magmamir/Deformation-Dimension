@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:nether_brick_wall"],
+   "textures": {
+      "minecraft:block/nether_bricks": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/purpur_block"
+      }
+   }
+}

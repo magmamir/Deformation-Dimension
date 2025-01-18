@@ -1,0 +1,59 @@
+{
+  "parent": "block/jigsaw",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mmdp.deformation:icon/ominous"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mmdp.deformation:icon/enderly_bulb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mmdp.deformation:icon/light_enderly_bulb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mmdp.deformation:icon/polished_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "mmdp.deformation:icon/cracked_purpur_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "mmdp.deformation:icon/end_sprout"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "mmdp.deformation:icon/end_gateway"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mmdp.deformation:icon/deformatted_weapon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mmdp.deformation:icon/cracked_endstone_bricks"
+    }
+  ]
+}

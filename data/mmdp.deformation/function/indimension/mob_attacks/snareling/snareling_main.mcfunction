@@ -17,4 +17,4 @@ execute if score @s mmdp.deformation.counter matches -200 run function mmdp.defo
 
 execute if score timer.40 mmdp.deformation.tech matches 0 if entity @s[tag=mmdp.deformation.snareling.melee_phase] if score @s mmdp.deformation.counter matches 0 unless entity @p[tag=mmdp.deformation.in_snareling_goop,distance=..64] if predicate mmdp.deformation:chance/0.25 run function mmdp.deformation:indimension/mob_attacks/snareling/wandering/calming
 
-#execute if entity @s[tag=mmdp.deformation.snareling.melee_phase] at @s if entity @p[distance=..2.5] anchored eyes facing entity @p eyes run tp @s ~ ~ ~ ~ ~
+#execute if entity @s[tag=mmdp.deformation.snareling.melee_phase] at @s if entity @p[distance=..2.5] anchored eyes facing entity @p eyes run rotate @s ~ ~

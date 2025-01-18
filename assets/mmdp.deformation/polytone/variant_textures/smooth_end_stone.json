@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:stripped_birch_wood"],
+   "textures": {
+      "minecraft:block/stripped_birch_log": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/smooth_end_stone"
+      }
+   }
+}

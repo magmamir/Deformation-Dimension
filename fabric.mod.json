@@ -1,6 +1,10 @@
 {
     "schemaVersion": 1,
+<<<<<<< HEAD
     "version": "1.0.1+1.21",
+=======
+    "version": "1.0.1+1.21.2",
+>>>>>>> 1.0.1+1.21.2
     "id": "deformation_dimension",
     "name": "Deformation Dimension",
     "description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
@@ -17,18 +21,17 @@
     "depends": {
       "fabricloader": "*",
       "minecraft": [
-        "1.21",
-        "1.21.1"
+        "1.21.2",
+        "1.21.3"
       ],
       "disable_custom_worlds_advice": "*",
-      "continuity": ">=3.0.0-beta.5",
-      "entity_texture_features": ">=6.2.5",
-      "entity_model_features": ">=2.4.0",
-      "citresewn": ">=1.2.2+1.21"
+      "continuity": ">=3.0.0",
+      "entity_texture_features": ">=6.2.6",
+      "entity_model_features": ">=2.4.0"
     },
     "recommends": {
-      "moremcmeta": ">=1.21-4.5.0",
-      "polytone": ">=1.21-3.1.0"
+      "moremcmeta": "*",
+      "polytone": ">=1.21.3-2.5.10"
     },
     "conflicts": {
       "animatica": "*"

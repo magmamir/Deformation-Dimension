@@ -5,7 +5,7 @@ $execute positioned $(dungeonPosX) 64 $(dungeonPosZ) at @e[type=marker,tag=mmdp.
 $execute positioned $(dungeonPosX) 64 $(dungeonPosZ) unless entity @e[type=marker,tag=mmdp.deformation.starting_point,tag=!mmdp.deformation.starting_point.inactive,distance=..512,limit=1] at @e[type=marker,tag=mmdp.deformation.starting_point,distance=..512,limit=1,sort=random] run tp @s ~ ~ ~ ~ ~
 $execute positioned $(dungeonPosX) 64 $(dungeonPosZ) unless entity @e[type=marker,tag=mmdp.deformation.starting_point,tag=!mmdp.deformation.starting_point.inactive,distance=..512,limit=1] run say ERROR!!! No active starting point!
 #tp @s $(dungeonPosX) 64 $(dungeonPosZ)
-attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:teleportation_to_dimension
+attribute @s minecraft:movement_speed modifier remove mmdp.deformation:teleportation_to_dimension
 tag @s add mmdp.deformation.dimension_explorer
 tag @s add mmdp.deformation.waiting_for_inventory_saving
 gamemode adventure @s[gamemode=survival]

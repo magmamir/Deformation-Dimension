@@ -12,4 +12,6 @@ execute if score @s mmdp.deformation.ender_pearl_thrown matches 1.. run scoreboa
 
 execute if score timer.20 mmdp.deformation.tech matches 0 if entity @s[tag=mmdp.deformation.died_in_dimension] if data entity @s {DeathTime:0s} run function mmdp.deformation:indimension/death/inventory_return with entity @s
 
+execute if entity @s[tag=mmdp.deformation.inv_updater.48_to_57] run function mmdp.deformation:updater/g/48_to_57/items_update_2
+
 execute if dimension mmdp:deformation if entity @s[tag=!mmdp.deformation.died_in_dimension] run function mmdp.deformation:indimension/players_tick

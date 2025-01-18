@@ -1,0 +1,8 @@
+{
+   "targets": ["minecraft:acacia_fence", "minecraft:acacia_button"],
+   "textures": {
+      "minecraft:block/acacia_planks": {
+         "mmdp:deformation": "mmdp.deformation:block/ctm/copper_block"
+      }
+   }
+}

@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:jigsaw",
       "components": {
-        "minecraft:custom_model_data": 222981
+        "minecraft:item_model":"mmdp.deformation:advancement_icons",
+        "minecraft:custom_model_data":2
       }
     },
     "title": {
