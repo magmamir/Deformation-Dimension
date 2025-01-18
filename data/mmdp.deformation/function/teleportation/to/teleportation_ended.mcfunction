@@ -24,4 +24,3 @@ $scoreboard players reset $(orchestrator) mmdp.deformation.teleportation
 scoreboard players remove orchestrator_preloading_terrain mmdp.deformation.tech 1
 
 $execute positioned $(dungeonPosX) 0 $(dungeonPosZ) run function mmdp.deformation:teleportation/to/unloading_the_dungeon
-$execute positioned $(dungeonPosX) 0 $(dungeonPosZ) run forceload add ~ ~

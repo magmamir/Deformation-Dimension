@@ -322,7 +322,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mmdp.deformation:items/transgression_armor_trim",
+          "value": "mmdp.deformation:technical/transgression_armor_trim_pack",
           "weight": 1
         },
         {

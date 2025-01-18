@@ -1,0 +1,1 @@
+execute unless entity @n[type=minecraft:marker,tag=mmdp.deformation.orchestrator] in mmdp:deformation run forceload remove all
