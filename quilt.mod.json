@@ -3,11 +3,7 @@
 	"quilt_loader": {
 		"group": "top.magmamir.mmdp",
 		"id": "deformation_dimension",
-<<<<<<< HEAD
-		"version": "1.0.1+1.21",
-=======
-		"version": "1.0.1+1.21.2",
->>>>>>> 1.0.1+1.21.2
+		"version": "1.0.2+1.21.4",
 		"metadata": {
 			"name": "Deformation Dimension",
 			"description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
@@ -37,8 +33,7 @@
 				"id": "minecraft",
 				"versions": {
 					"any": [
-						"=1.21.2",
-						"=1.21.3"
+						"=1.21.4"
 					]
 				}
 			},

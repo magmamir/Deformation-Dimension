@@ -1,10 +1,6 @@
 {
     "schemaVersion": 1,
-<<<<<<< HEAD
-    "version": "1.0.1+1.21",
-=======
-    "version": "1.0.1+1.21.2",
->>>>>>> 1.0.1+1.21.2
+    "version": "1.0.2+1.21.4",
     "id": "deformation_dimension",
     "name": "Deformation Dimension",
     "description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
@@ -21,8 +17,7 @@
     "depends": {
       "fabricloader": "*",
       "minecraft": [
-        "1.21.2",
-        "1.21.3"
+        "1.21.4"
       ],
       "disable_custom_worlds_advice": "*",
       "continuity": ">=3.0.0",

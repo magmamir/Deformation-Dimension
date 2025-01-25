@@ -1,6 +1,6 @@
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~1 ~ ~ minecraft:purpur_pillar[axis=y] run summon item_display ~0.49 ~-0.185 ~ {\
 	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation.outdimension_block.g_56_format","mmdp.deformation_entrance","mmdp.deformation_entrance.block","mmdp.deformation_entrance.east","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":3}},\
+	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[3]}}},\
 	transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.51f,0.185f,0f],scale:[1.01f,1.01f,1.01f]},\
 	Passengers:[\
 		{id:"minecraft:interaction",\
@@ -9,7 +9,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~1 ~ ~ minecraft:purpur_pil
 		},\
 		{id:"minecraft:item_display",\
 			Tags:["mmdp.deformation_entrance","mmdp.deformation_entrance.button","mmdp.deformation_entrance.active","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-			Rotation:[-90F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":2}},\
+			Rotation:[-90F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[2]}}},\
 			brightness:{sky:11,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.175f,-0.03f],scale:[0.75f,0.75f,0.75f]}\
 		}\
 	]\
@@ -17,7 +17,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~1 ~ ~ minecraft:purpur_pil
 
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~-1 ~ ~ minecraft:purpur_pillar[axis=y] run summon item_display ~-0.49 ~-0.185 ~ {\
 	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation.outdimension_block.g_56_format","mmdp.deformation_entrance","mmdp.deformation_entrance.block","mmdp.deformation_entrance.west","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":3}},\
+	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[3]}}},\
 	transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.51f,0.185f,0f],scale:[1.01f,1.01f,1.01f]},\
 	Passengers:[\
 		{id:"minecraft:interaction",\
@@ -26,7 +26,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~-1 ~ ~ minecraft:purpur_pi
 		},\
 		{id:"minecraft:item_display",\
 			Tags:["mmdp.deformation_entrance","mmdp.deformation_entrance.button","mmdp.deformation_entrance.active","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-			Rotation:[90F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":2}},\
+			Rotation:[90F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[2]}}},\
 			brightness:{sky:11,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.175f,-0.03f],scale:[0.75f,0.75f,0.75f]}\
 		}\
 	]\
@@ -34,7 +34,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~-1 ~ ~ minecraft:purpur_pi
 
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~1 minecraft:purpur_pillar[axis=y] run summon item_display ~ ~-0.185 ~0.49 {\
 	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation.outdimension_block.g_56_format","mmdp.deformation_entrance","mmdp.deformation_entrance.block","mmdp.deformation_entrance.south","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":3}},\
+	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[3]}}},\
 	transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.185f,0.51f],scale:[1.01f,1.01f,1.01f]},\
 	Passengers:[\
 		{id:"minecraft:interaction",\
@@ -43,7 +43,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~1 minecraft:purpur_pil
 		},\
 		{id:"minecraft:item_display",\
 			Tags:["mmdp.deformation_entrance","mmdp.deformation_entrance.button","mmdp.deformation_entrance.active","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-			Rotation:[0F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":2}},\
+			Rotation:[0F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[2]}}},\
 			brightness:{sky:11,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.175f,-0.03f],scale:[0.75f,0.75f,0.75f]}\
 		}\
 	]\
@@ -51,7 +51,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~1 minecraft:purpur_pil
 
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~-1 minecraft:purpur_pillar[axis=y] run summon item_display ~ ~-0.185 ~-0.49 {\
 	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation.outdimension_block.g_56_format","mmdp.deformation_entrance","mmdp.deformation_entrance.block","mmdp.deformation_entrance.north","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":3}},\
+	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[3]}}},\
 	transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.185f,-0.51f],scale:[1.01f,1.01f,1.01f]},\
 	Passengers:[\
 		{id:"minecraft:interaction",\
@@ -60,7 +60,7 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~-1 minecraft:purpur_pi
 		},\
 		{id:"minecraft:item_display",\
 			Tags:["mmdp.deformation_entrance","mmdp.deformation_entrance.button","mmdp.deformation_entrance.active","global.ignore.pos","global.ignore.kill","global.ignore.gui","global.ignore"],\
-			Rotation:[180F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":2}},\
+			Rotation:[180F,0F],item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"mmdp.deformation:deformation_entrance","minecraft:custom_model_data":{"floats":[2]}}},\
 			brightness:{sky:11,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.175f,-0.03f],scale:[0.75f,0.75f,0.75f]}\
 		}\
 	]\

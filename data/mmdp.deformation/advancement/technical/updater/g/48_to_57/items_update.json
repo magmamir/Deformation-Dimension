@@ -10,11 +10,13 @@
               "type": "minecraft:score",
               "target": {
                 "type": "minecraft:fixed",
-                "name": "last_game_version"
+                "name": "patch_list"
               },
               "score": "mmdp.deformation.tech"
             },
-            "range": 48
+            "range": {
+              "min": 1
+            }
           }
         ],
         "items": [
@@ -37,11 +39,13 @@
               "type": "minecraft:score",
               "target": {
                 "type": "minecraft:fixed",
-                "name": "last_game_version"
+                "name": "patch_list"
               },
               "score": "mmdp.deformation.tech"
             },
-            "range": 48
+            "range": {
+              "min": 1
+            }
           }
         ],
         "items": [

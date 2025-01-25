@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/brown_mushroom",
-  "textures": {
-    "layer0": "mmdp.deformation:item/icon_end_sprout"
-  }
-}

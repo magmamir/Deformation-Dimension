@@ -1,5 +1,5 @@
 {
-	"mmdp.deformation:Version": "1.0.1+1.21.2",
+	"mmdp.deformation:Version": "1.0.2+1.21.4",
 	
 	"mmdp.deformation:item.deformation_key" : "Ключ Деформации",
 	"mmdp.deformation:trim_pattern.transgression" : "Отделка «Трансгрессия»",
@@ -42,7 +42,7 @@
 	"mmdp.deformation:advancement.paintings_finder.description" : "Соберите все уникальные картины, эксклюзиные для этого данжа",
 	"mmdp.deformation:advancement.get_acrophobia_book.title" : "Страх высоты?",
 	"mmdp.deformation:advancement.get_acrophobia_book.description" : "Получите зачарованную книжку на Акрофобию",
-	"mmdp.deformation:advancement.max_acrophobia_elytra.title" : "Безопасность - превыше всего!",
+	"mmdp.deformation:advancement.max_acrophobia_elytra.title" : "Безопасность - превыше всего",
 	"mmdp.deformation:advancement.max_acrophobia_elytra.description" : "Улучшите свои элитры на максимальный уровень Акрофобии",
 	"mmdp.deformation:advancement.feel_maxed_end_curse.title" : "Сладкий голос Бездны",
 	"mmdp.deformation:advancement.feel_maxed_end_curse.description" : "Каким-то образом умудритесь получить максимальный уровень Высотной Лихорадки… и выживите!",
@@ -52,7 +52,7 @@
 	"mmdp.deformation:advancement.succeed_ten_times.description" : "Пройдите измерение 10 раз. Теперь это похоже на зависимость",
 	"mmdp.deformation:advancement.visit_100_rooms.title" : "Сквозь сотню врат",
 	"mmdp.deformation:advancement.visit_100_rooms.description" : "Посетите 100 комнат данжа. Кто знает, что вы встретите на этом пути…",
-	"mmdp.deformation:advancement.visit_all_room_variations.title" : "Проблема сбощика купонов",
+	"mmdp.deformation:advancement.visit_all_room_variations.title" : "Проблема сборщика купонов",
 	"mmdp.deformation:advancement.visit_all_room_variations.description" : "Этот датапак содержит 66 вариаций комнат. В среднем на весь данж генерируется 20-28 комнат. Сколько раз необходимо посетить данж, чтобы увидеть все вариации?",
 	"mmdp.deformation:entity.blastling" : "Подрыватель",
 	"mmdp.deformation:entity.watchling" : "Наблюдатель",

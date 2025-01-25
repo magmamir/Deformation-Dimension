@@ -4,7 +4,7 @@
       "id": "minecraft:jigsaw",
       "components": {
         "minecraft:item_model":"mmdp.deformation:advancement_icons",
-        "minecraft:custom_model_data":2
+        "minecraft:custom_model_data":{"floats":[2]}
       }
     },
     "title": {
