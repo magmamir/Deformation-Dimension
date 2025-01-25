@@ -1,6 +1,6 @@
 # Deformation Dimension
 
-> This branch contains a version of Deformation Dimension for Minecraft 1.21.2-1.21.3. The last version of the pack on it is 1.0.1+1.21.2
+> This branch contains a version of Deformation Dimension for Minecraft 1.21.4. The last version of the pack on it is 1.0.2+1.21.4
 
 This datapack adds a very late-game, dungeon-like dimension called Deformation, inspired by the new Trial Chamber dungeon and classical roguelike games. It features various challenges, including mob fighting, basic parkour, puzzles, and even battles with custom mini-bosses. Elytras found on End city ships have been replaced with the Deformation Entrance, which, when activated, teleports the player into the dimension. Each visit generates a unique layout.
 
