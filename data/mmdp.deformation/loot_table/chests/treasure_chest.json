@@ -234,7 +234,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:obsidian",
-              "weight": 1,
+              "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -248,7 +248,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:crying_obsidian",
-              "weight": 1,
+              "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -264,7 +264,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:end_crystal",
-          "weight": 3,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -289,7 +289,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:firework_rocket",
-          "weight": 3,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_fireworks",
@@ -301,7 +301,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.32
                 }
               ]
             },
@@ -323,7 +323,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "mmdp.deformation:technical/transgression_armor_trim_pack",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:alternatives",
@@ -331,7 +331,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:enchanted_book",
-              "weight": 2,
+              "weight": 4,
               "functions": [
                 {
                   "function": "minecraft:set_enchantments",
@@ -343,24 +343,24 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.675
+                  "chance": 0.625
                 }
               ]
             },
             {
               "type": "minecraft:loot_table",
               "value": "mmdp.deformation:items/acrophobia_enchanted_book/level_1",
-              "weight": 2
+              "weight": 4
             }
           ]
         },
         {
-          "type": "minecraft:alternatives",
+          "type": "minecraft:group",
           "children": [
             {
               "type": "minecraft:loot_table",
               "value": "mmdp.deformation:items/paintings/choice",
-              "weight": 1,
+              "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -375,7 +375,7 @@
             {
               "type": "minecraft:loot_table",
               "value": "mmdp.deformation:items/paintings/decision",
-              "weight": 1,
+              "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -405,7 +405,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.68
+          "chance": 0.88
         }
       ]
     }

@@ -272,7 +272,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:end_crystal",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -297,7 +297,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:firework_rocket",
-          "weight": 2,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_fireworks",
@@ -309,7 +309,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.43
                 }
               ]
             },
@@ -329,17 +329,12 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "mmdp.deformation:technical/transgression_armor_trim_pack",
-          "weight": 1
-        },
-        {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
               "name": "minecraft:enchanted_book",
-              "weight": 1,
+              "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_enchantments",
@@ -351,12 +346,13 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.75
+                  "chance": 0.78
                 }
               ]
             },
             {
               "type": "minecraft:loot_table",
+              "weight": 2,
               "value": "mmdp.deformation:items/acrophobia_enchanted_book/level_1"
             }
           ]
@@ -366,7 +362,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "value": "mmdp.deformation:items/paintings/choice",
+              "value": "mmdp.deformation:items/paintings/decision",
               "weight": 1,
               "functions": [
                 {
@@ -384,7 +380,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "mmdp.deformation:items/paintings/decision",
+              "value": "mmdp.deformation:items/paintings/choice",
               "weight": 1,
               "functions": [
                 {
@@ -404,7 +400,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.61
             }
           ]
         }
@@ -412,7 +408,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.17
+          "chance": 0.22
         }
       ]
     },
