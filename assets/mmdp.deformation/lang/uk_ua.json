@@ -21,7 +21,7 @@
 	"mmdp.deformation:chat.init_error.dimension_does_not_exsist": "Вимір не зареєстрований! Спробуйте знову увійти у світ, або перезавантажте сервер.",
 	"mmdp.deformation:chat.init_error.command_blocks_disabled": "Командні блоки вимкнено! Їх робота необхідна для правильного функціонування датапаку. Будь ласка, увімкніть їх, змінивши відповідну опцію у файлі server.properties.",
 	"mmdp.deformation:chat.illegal_item": ", будь ласка, вимкніть чити.",
-	"mmdp.deformation:chat.description.illegal_item": "Цей гравець намагався отримати предмет з datapack, який недоступний в режимі виживання без змін пакунків клієнт-сервер або команд. Адміністрація повинна вжити заходів. Якщо цей користувач є адміністратором — ігноруйте це сповіщення.",
+	"mmdp.deformation:chat.description.illegal_item": "Цей гравець намагався отримати предмет, який недоступний в режимі виживання без змін пакунків клієнт-сервер або команд. Адміністрація повинна вжити заходів. Якщо цей користувач є адміністратором — ігноруйте це сповіщення.",
 	"mmdp.deformation:advancement.root.title": "Деформація",
 	"mmdp.deformation:advancement.root.description": "Навіть сама простір-час тут нестабільна. Будьте обережні. Остерігайтеся руйнування",
 	"mmdp.deformation:advancement.gateway_escape.title": "Недосконалий втеча",
