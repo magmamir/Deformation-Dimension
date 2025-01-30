@@ -358,41 +358,17 @@
           ]
         },
         {
-          "type": "minecraft:group",
-          "children": [
+          "type": "minecraft:loot_table",
+          "value": "mmdp.deformation:technical/paintings",
+          "weight": 3,
+          "functions": [
             {
-              "type": "minecraft:loot_table",
-              "value": "mmdp.deformation:items/paintings/decision",
-              "weight": 1,
-              "functions": [
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
                 {
-                  "function": "minecraft:set_count",
-                  "count": 1,
-                  "add": true,
-                  "conditions": [
-                    {
-                      "condition": "minecraft:random_chance",
-                      "chance": 0.65
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "minecraft:loot_table",
-              "value": "mmdp.deformation:items/paintings/choice",
-              "weight": 1,
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1,
-                  "add": true,
-                  "conditions": [
-                    {
-                      "condition": "minecraft:random_chance",
-                      "chance": 0.65
-                    }
-                  ]
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.65
                 }
               ]
             }
@@ -400,7 +376,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.7
             }
           ]
         }

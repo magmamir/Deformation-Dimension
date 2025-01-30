@@ -248,7 +248,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:crying_obsidian",
-              "weight": 2,
+              "weight": 3,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -331,7 +331,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:enchanted_book",
-              "weight": 4,
+              "weight": 3,
               "functions": [
                 {
                   "function": "minecraft:set_enchantments",
