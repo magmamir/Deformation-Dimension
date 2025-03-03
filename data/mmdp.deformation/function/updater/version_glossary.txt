@@ -1,0 +1,13 @@
+pack_version 0 — 1.0 Update
+pack_version 1 — 1.0.1 Update
+pack_version 2 — 1.0.2 Update
+
+The format of game_version corresponds to the format of pack.mcmeta (data), that can be found here: https://minecraft.wiki/w/Pack_format
+
+
+Version list:
+ Semantic	| game_version	| pack_version	| Supported Minecraft versions
+1.0+1.21	| 48		| 0		| 1.21-1.21.1
+1.0.1+1.21	| 48		| 1		| 1.21-1.21.1
+1.0.1+1.21.2	| 57		| 1		| 1.21.2-1.21.3
+1.0.2+1.21.4	| 61		| 2		| 1.21.4
