@@ -11,7 +11,7 @@
 	"mmdp.deformation:chat.teleportation_cancellation": "Die Deformationsdimension ist noch nicht für Ihr %s bereit. Rückkehr in etwa %s Sekunden.",
 	"mmdp.deformation:chat.teleportation_cancellation.soul": "Seele",
 	"mmdp.deformation:chat.dimension_collapsed.1": "Die Deformationsdimension konnte die Anwesenheit von mehr als einer lebenden Seele in der Nähe nicht ertragen und brach in sich zusammen.",
-	"mmdp.deformation:chat.dimension_collapsed.2": "Bitte vermeide solche Situationen in Zukunft, um eine Ausbreitung der Verformung zu verhindern für",
+	"mmdp.deformation:chat.dimension_collapsed.2": "Bitte vermeide solche Situationen in Zukunft, um eine Ausbreitung der Verformung zu verhindern für ",
 	"mmdp.deformation:chat.dimension_collapsed.3": "den Rest der Welt",
 	"mmdp.deformation:chat.long_offline_return": "Du warst zu lange offline. Deine Dimension wurde zerlegt. Du wurdest zur Hauptinsel von End zurückgebracht",
 	"mmdp.deformation:chat.stucking_preventing.question": "Du hast dich eine ganze Weile nicht bewegt. Steckst du fest?",
