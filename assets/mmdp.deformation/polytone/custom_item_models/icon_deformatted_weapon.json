@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:jigsaw",
+  "model": "mmdp.deformation:item/icon_deformatted_weapon",
+  "components": {
+    "minecraft:custom_model_data": 222987
+  }
+}

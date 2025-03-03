@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:jigsaw",
+  "model": "mmdp.deformation:item/projectile_snareling_goop",
+  "components": {
+    "minecraft:custom_model_data": 222996
+  }
+}

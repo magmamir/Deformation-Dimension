@@ -10,7 +10,8 @@
 			"contributors": {
 				"magmamir": "Coder",
 				"_Sasha_Lapa_": "Artist",
-				"good7777865": "Translator"
+				"good7777865": "Translator",
+				"Atten007": "Translator"
 			},
 			"contact": {
 				"sources": "https://github.com/magmamir/Deformation-Dimension",
@@ -63,9 +64,9 @@
 				"environment": "client"
 			},
 			{
-				"id": "citresewn",
-				"versions": ">=1.2.2+1.21",
-				"reason": "Required to display textures of custom items and blocks",
+				"id": "polytone",
+				"versions": ">=1.21-3.2.5",
+				"reason": "Required to display custom textures and insert custom items in creative tabs",
 				"environment": "client"
 			},
 			{
@@ -83,9 +84,9 @@
 				}
 			},
 			{
-				"id": "polytone",
-				"versions": ">=1.21-3.1.0",
-				"reason": "Required to insert custom items in creative tabs",
+				"id": "citresewn",
+				"versions": ">=1.2.2+1.21",
+				"reason": "An option to display textures of custom items and blocks",
 				"environment": "client",
 				"optional": true
 			}

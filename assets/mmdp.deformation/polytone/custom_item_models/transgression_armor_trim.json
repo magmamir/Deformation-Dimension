@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:enderman_spawn_egg",
+  "model": "mmdp.deformation:item/transgression_armor_trim",
+  "components": {
+    "minecraft:custom_model_data": 222971
+  }
+}

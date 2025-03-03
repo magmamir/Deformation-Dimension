@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:jigsaw",
+  "model": "mmdp.deformation:item/deformation_roots_1",
+  "components": {
+    "minecraft:custom_model_data": 222989
+  }
+}

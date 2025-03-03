@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:jigsaw",
+  "model": "mmdp.deformation:item/icon_cracked_endstone_bricks",
+  "components": {
+    "minecraft:custom_model_data": 222988
+  }
+}

@@ -10,7 +10,8 @@
       "_Sasha_Lapa_"
     ],
     "contributors": [
-      "good7777865"
+      "good7777865",
+      "Atten007"
     ],
     "icon": "pack.png",
     "license": "LicenseRef-All-Rights-Reserved",
@@ -24,11 +25,13 @@
       "continuity": ">=3.0.0-beta.5",
       "entity_texture_features": ">=6.2.5",
       "entity_model_features": ">=2.4.0",
-      "citresewn": ">=1.2.2+1.21"
+      "polytone": ">=1.21-3.2.5"
     },
     "recommends": {
-      "moremcmeta": ">=1.21-4.5.0",
-      "polytone": ">=1.21-3.1.0"
+      "moremcmeta": ">=1.21-4.5.0"
+    },
+    "suggests": {
+      "citresewn": ">=1.2.2+1.21"
     },
     "conflicts": {
       "animatica": "*"

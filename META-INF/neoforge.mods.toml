@@ -21,7 +21,8 @@ issueTrackerURL="https://github.com/magmamir/Deformation-Dimension/issues"
   
   magmamir — Coder
   _Sasha_Lapa_ — Artist
-  good7777865 — Translator (ko_kr)'''
+  good7777865 — Translator (ko_kr)
+  Atten007 — Translator (de_de)'''
 
   description='''
 Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.
@@ -32,10 +33,8 @@ REQUIREMENTS:
  - Continuity (NEOFORGE version)
  - [ETF] Entity Texture Features
  - [EMF] Entity Model Features
- - CIT Resewn (FABRIC version)
- - CITResewnNeoPatcher
+ - Polytone (NEOFORGE version)
  - MoreMcmeta (FABRIC version) [Optional, but highly recommended]
- - Polytone (NEOFORGE version) [Optional, but highly recommended]
 '''
 
 
@@ -79,20 +78,12 @@ REQUIREMENTS:
   referralUrl="https://modrinth.com/mod/continuity"
   
 [[dependencies.deformation_dimension]]
-  modId = "citresewn"
+  modId = "polytone"
   type = "required"
-  versionRange = "[1.2.2+1.21,)"
+  versionRange = "[1.21-3.2.5,)"
   ordering = "NONE"
   side = "CLIENT"
-  referralUrl="https://modrinth.com/mod/cit-resewn"
-  
-[[dependencies.deformation_dimension]]
-  modId = "citresewn_neopatcher"
-  type = "required"
-  versionRange = "[1.1.0,)"
-  ordering = "NONE"
-  side = "CLIENT"
-  referralUrl="https://modrinth.com/mod/cit-resewn-neopatcher"
+  referralUrl="https://modrinth.com/mod/polytone"
   
 [[dependencies.deformation_dimension]]
   modId = "moremcmeta"
@@ -101,11 +92,3 @@ REQUIREMENTS:
   ordering = "NONE"
   side = "CLIENT"
   referralUrl="https://modrinth.com/mod/moremcmeta/version/v1.21.1-4.5.1-fabric"
-  
-[[dependencies.deformation_dimension]]
-  modId = "polytone"
-  type = "optional"
-  versionRange = "[1.21-3.1.0,)"
-  ordering = "NONE"
-  side = "CLIENT"
-  referralUrl="https://modrinth.com/mod/polytone"

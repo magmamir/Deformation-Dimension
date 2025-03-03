@@ -91,6 +91,7 @@ So far, this datapack has been translated into the following languages:
 <li>pl_pl — _Sasha_Lapa_</li>
 <li>uk_ua — _Sasha_Lapa_</li>
 <li>ko_kr — good7777865</li>
+<li>de_de — Atten007</li>
 </ul>
 If you'd like to help translate this datapack into your own language, feel free to create a pull request on <a href="https://github.com/magmamir/Deformation-Dimension">github</a>
 </details>
