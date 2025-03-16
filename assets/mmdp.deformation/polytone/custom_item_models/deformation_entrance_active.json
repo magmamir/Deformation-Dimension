@@ -1,6 +1,6 @@
 {
   "item": "minecraft:jigsaw",
-  "model": "mmdp.deformation:item/deformation_entrance_active",
+  "model": "mmdp.deformation:block/deformation_entrance_active",
   "components": {
     "minecraft:custom_model_data": 222994
   }

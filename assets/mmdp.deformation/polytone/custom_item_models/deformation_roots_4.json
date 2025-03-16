@@ -1,6 +1,6 @@
 {
   "item": "minecraft:jigsaw",
-  "model": "mmdp.deformation:item/deformation_roots_4",
+  "model": "mmdp.deformation:block/deformation_roots_4",
   "components": {
     "minecraft:custom_model_data": 222992
   }
