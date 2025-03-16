@@ -82,13 +82,6 @@
 					"environment": "client",
 					"optional": true
 				}
-			},
-			{
-				"id": "citresewn",
-				"versions": ">=1.2.2+1.21",
-				"reason": "An option to display textures of custom items and blocks",
-				"environment": "client",
-				"optional": true
 			}
 		],
 		"jars": [

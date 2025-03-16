@@ -30,9 +30,6 @@
     "recommends": {
       "moremcmeta": ">=1.21-4.5.0"
     },
-    "suggests": {
-      "citresewn": ">=1.2.2+1.21"
-    },
     "conflicts": {
       "animatica": "*"
     },
