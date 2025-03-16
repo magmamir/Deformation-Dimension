@@ -1,30 +1,30 @@
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~1 ~ ~ #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.east","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.east","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[-90F,0F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~-1 ~ ~ #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.west","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.west","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[90F,0F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~1 #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.south","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.south","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[0F,0F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~-1 #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.north","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.north","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[180F,0F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~1 ~ #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.up","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.up","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[0F,-90F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~-1 ~ #mmdp.deformation:deformable_blocks run summon item_display ~ ~ ~ {\
-	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.down","global.ignore.pos","global.ignore.gui"],\
+	Tags:["mmdp.deformation.outdimension_block","mmdp.deformation_roots","mmdp.deformation_roots.new","mmdp.deformation_roots.down","global.ignore.pos","global.ignore.gui","smithed.block","global.block"],\
 	item_display:"none",item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":222989}},\
 	Rotation:[0F,90F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0.49f],scale:[1f,1f,1f]}\
 }
