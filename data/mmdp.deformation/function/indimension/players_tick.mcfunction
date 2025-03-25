@@ -28,6 +28,7 @@ execute if score timer.20 mmdp.deformation.tech matches 0 as @e[type=minecraft:m
 execute if entity @s[tag=mmdp.deformation.waiting_for_inventory_saving] run function mmdp.deformation:indimension/death/inventory_saving with entity @s
 
 # Anticheesing
+execute if entity @s[gamemode=survival] run gamemode adventure @s
 execute if predicate mmdp.deformation:on_ride run ride @s dismount
 execute if entity @s[tag=mmdp.deformation.chorus_consumed] run function mmdp.deformation:other/macro_init/1 {"function":"indimension/anticheesing/chorus/tp_back","type":"player"}
 execute if entity @s[tag=mmdp.deformation.golden_chorus_consumed] run function mmdp.deformation:indimension/anticheesing/golden_chorus/teleport

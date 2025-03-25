@@ -3,10 +3,10 @@ execute as @n[type=marker,tag=mmdp.deformation.orchestrator.loading] if score @s
 execute as @n[type=marker,tag=mmdp.deformation.orchestrator.loading] if entity @s[distance=376..] run scoreboard players set temp.log.1 mmdp.deformation.tech 2
 execute unless entity @n[type=marker,tag=mmdp.deformation.orchestrator.loading] run say ERROR! Loading Orchestrator is not found!!!
 
-execute rotated ~ ~ if block ^ ^ ^-5 #mmdp.deformation:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 1
-execute rotated ~90 ~ if block ^ ^ ^-5 #mmdp.deformation:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 2
-execute rotated ~180 ~ if block ^ ^ ^-5 #mmdp.deformation:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 3
-execute rotated ~270 ~ if block ^ ^ ^-5 #mmdp.deformation:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 4
+execute rotated ~ ~ if block ^ ^ ^-5 #mmdp:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 1
+execute rotated ~90 ~ if block ^ ^ ^-5 #mmdp:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 2
+execute rotated ~180 ~ if block ^ ^ ^-5 #mmdp:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 3
+execute rotated ~270 ~ if block ^ ^ ^-5 #mmdp:command_blocks run scoreboard players set temp.log.2 mmdp.deformation.tech 4
 
 
 
@@ -23,4 +23,4 @@ execute if score temp.log.1 mmdp.deformation.tech matches 2 if score temp.log.2 
 
 scoreboard players reset temp.log.1 mmdp.deformation.tech
 scoreboard players reset temp.log.2 mmdp.deformation.tech
-fill ~ ~ ~ ~ ~ ~ minecraft:air replace #mmdp.deformation:command_blocks
+fill ~ ~ ~ ~ ~ ~ minecraft:air replace #mmdp:command_blocks

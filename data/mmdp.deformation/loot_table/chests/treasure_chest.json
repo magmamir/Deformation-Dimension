@@ -408,6 +408,39 @@
           "chance": 0.88
         }
       ]
+    },
+	{
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1.5
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/end_excalibur",
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/endlight",
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/moonlight_edge",
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/broken_crucible",
+          "weight": 1
+        }
+      ]
     }
   ]
 }
