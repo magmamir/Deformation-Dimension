@@ -3,6 +3,8 @@ tag @s remove mmdp.deformation.died_in_dimension
 $execute store result storage mmdp:deformation inventory_save[{"player":$(UUID)}].keepInventory byte 1 run gamerule keepInventory
 $execute if data storage mmdp:deformation {inventory_save:[{"player":$(UUID),keepInventory:1b}]} run return run data remove storage mmdp:deformation inventory_save[{"player":$(UUID)}]
 
+clear @s
+
 summon chest_minecart ~ ~1 ~ {UUID:[I;-2080714817,1116491745,-1934945313,308710623],Tags:["mmdp.temp.inv_restorer"],DisplayState:{Name:"minecraft:air"}}
 $data modify entity 83facfbf-428c-4fe1-8cab-13df12668cdf Items set from storage mmdp:deformation inventory_save[{"player":$(UUID)}].Inventory
 kill 83facfbf-428c-4fe1-8cab-13df12668cdf

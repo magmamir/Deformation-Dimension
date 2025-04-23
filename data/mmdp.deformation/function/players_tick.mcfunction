@@ -10,6 +10,6 @@ execute if score @s mmdp.deformation.teleportation matches -65535 run function m
 execute if score @s mmdp.deformation.ender_pearl_thrown matches 1.. if dimension mmdp:deformation as @e[type=minecraft:ender_pearl,distance=..32] at @s run function mmdp.deformation:indimension/anticheesing/ender_pearl_destruction
 execute if score @s mmdp.deformation.ender_pearl_thrown matches 1.. run scoreboard players set @s mmdp.deformation.ender_pearl_thrown 0
 
-execute if score timer.20 mmdp.deformation.tech matches 0 if entity @s[tag=mmdp.deformation.died_in_dimension] if data entity @s {DeathTime:0s} run function mmdp.deformation:indimension/death/inventory_return with entity @s
+execute if entity @s[tag=mmdp.deformation.died_in_dimension] unless dimension mmdp:deformation if data entity @s {DeathTime:0s} if loaded ~ ~ ~ run function mmdp.deformation:indimension/death/inventory_return with entity @s
 
 execute if dimension mmdp:deformation if entity @s[tag=!mmdp.deformation.died_in_dimension] run function mmdp.deformation:indimension/players_tick
