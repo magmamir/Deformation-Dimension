@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "tcc": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
@@ -14,8 +14,29 @@
           }
         }
       }
+    },
+    "stellarity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{stellarity.special_item:\"golden_chorus_fruit\"}"
+          }
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "tcc",
+      "stellarity"
+    ]
+  ],
   "rewards": {
     "function": "mmdp.deformation:indimension/anticheesing/golden_chorus/consumed"
   }

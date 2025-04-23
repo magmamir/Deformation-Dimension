@@ -13,7 +13,7 @@
 	"mmdp.deformation:chat.teleportation_cancellation": "Измерение Деформации ещё не готово к вашей %s. Возвращайтесь примерно через %s секунд.",
 	"mmdp.deformation:chat.teleportation_cancellation.soul": "душе",
 	"mmdp.deformation:chat.dimension_collapsed.1": "Измерение Деформации не смогло вынести нахождение поблизости более одной живой души и коллапсировало.",
-	"mmdp.deformation:chat.dimension_collapsed.2": "Пожалуйста, впредь избегайте подобных ситуаций, во избежания распространения деформации на ",
+	"mmdp.deformation:chat.dimension_collapsed.2": "Пожалуйста, впредь избегайте подобных ситуаций, во избежания распространения деформации на %s",
 	"mmdp.deformation:chat.dimension_collapsed.3": "остальной мир",
 	"mmdp.deformation:chat.long_offline_return": "Вы были оффлайн слишком долго. Ваше измерение разобрано. Вы были телепортированы на главный остров Края",
 	"mmdp.deformation:chat.stucking_preventing.question": "Вы не двигались в течение достаточно долгого времени. Вы застряли и не можете выбраться?",

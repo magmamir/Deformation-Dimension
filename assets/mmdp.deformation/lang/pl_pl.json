@@ -13,7 +13,7 @@
 	"mmdp.deformation:chat.teleportation_cancellation": "Wymiar Deformacji nie jest jeszcze gotowy na twoje %s. Wróć za około %s sekund.",
 	"mmdp.deformation:chat.teleportation_cancellation.soul": "duszę",
 	"mmdp.deformation:chat.dimension_collapsed.1": "Wymiar Deformacji nie wytrzymał obecności więcej niż jednej żywej duszy w pobliżu i zapadł się.",
-	"mmdp.deformation:chat.dimension_collapsed.2": "Proszę unikać takich sytuacji, aby zapobiec rozprzestrzenianiu się deformacji na ",
+	"mmdp.deformation:chat.dimension_collapsed.2": "Proszę unikać takich sytuacji, aby zapobiec rozprzestrzenianiu się deformacji na %s",
 	"mmdp.deformation:chat.dimension_collapsed.3": "resztę świata",
 	"mmdp.deformation:chat.long_offline_return": "Byłeś offline zbyt długo. Twój wymiar został rozebrany. Zostałeś teleportowany na główną wyspę Endu.",
 	"mmdp.deformation:chat.stucking_preventing.question": "Nie poruszałeś się przez wystarczająco długi czas. Utknąłeś i nie możesz się wydostać?",

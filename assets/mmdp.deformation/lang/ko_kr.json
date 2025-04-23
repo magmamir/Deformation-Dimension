@@ -13,7 +13,7 @@
   "mmdp.deformation:chat.teleportation_cancellation": "변형 차원이 아직 %s에 대해 준비되지 않았습니다. 약 %s초 후에 반환됩니다.",
   "mmdp.deformation:chat.teleportation_cancellation.soul": "영혼",
   "mmdp.deformation:chat.dimension_collapsed.1": "변형 차원은 주변에 두 명 이상의 생명체가 존재하는 것을 견딜 수 없었고 그 자체로 붕괴되었습니다.",
-  "mmdp.deformation:chat.dimension_collapsed.2": "앞으로는 이런 상황이 발생하지 않도록 하여 ",
+  "mmdp.deformation:chat.dimension_collapsed.2": "앞으로는 이런 상황이 발생하지 않도록 하여 %s",
   "mmdp.deformation:chat.dimension_collapsed.3": "변형이 확산되는 것을 방지해 주시기 바랍니다.",
   "mmdp.deformation:chat.long_offline_return": "당신은 너무 오랫동안 보이지 않자 차원은 분해되어버렸습니다. 당신은 메인 엔드 섬으로 돌아갑니다.",
   "mmdp.deformation:chat.stucking_preventing.question": "꽤 오랫동안 움직이지 않았습니다, 갇혀계신가요?",
