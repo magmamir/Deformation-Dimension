@@ -1,10 +1,8 @@
-execute on attacker run scoreboard players set temp.evacuate_return mmdp.deformation.tech 1
 execute if score @s mmdp.deformation.teleportation matches -2147483648..2147483647 unless score @s mmdp.deformation.teleportation matches 0 run scoreboard players set temp.evacuate_return mmdp.deformation.tech 1
 execute unless score temp.evacuate_return mmdp.deformation.tech matches 1.. if score @s mmdp.deformation.evacuate matches -1 run scoreboard players set temp.evacuate_return mmdp.deformation.tech 2
 execute unless score temp.evacuate_return mmdp.deformation.tech matches 1.. unless score @s mmdp.deformation.evacuate matches -1 run scoreboard players set temp.evacuate_return mmdp.deformation.tech 3
 
 scoreboard players reset @s mmdp.deformation.evacuate
-scoreboard players enable @s mmdp.deformation.evacuate
 
 execute if score temp.evacuate_return mmdp.deformation.tech matches 1 run tellraw @s {"translate":"commands.trigger.failed.unprimed","color":"red"}
 execute if score temp.evacuate_return mmdp.deformation.tech matches 2 run tellraw @s ""

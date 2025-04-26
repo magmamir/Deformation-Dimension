@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 1
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"mmdp.deformation.mob\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:indimension/prevent_stucking/timer_reset"
+  }
+}

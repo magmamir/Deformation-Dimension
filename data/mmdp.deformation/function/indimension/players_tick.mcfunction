@@ -17,7 +17,7 @@ execute if entity @s[tag=mmdp.deformation.in_snareling_goop] if score timer.20 m
 execute as @e[type=minecraft:item_display,tag=mmdp.deformation.projectile,distance=..96] at @s run function mmdp.deformation:indimension/mob_attacks/projectiles_main
 # === Special mob behavior ===  
 
-function mmdp.deformation:indimension/prevent_stucking/check
+execute if score timer.100 mmdp.deformation.tech matches 0 run function mmdp.deformation:indimension/prevent_stucking/check
 execute unless score @s mmdp.deformation.evacuate matches 0 if score @s mmdp.deformation.evacuate matches -2147483648..2147483647 run function mmdp.deformation:indimension/prevent_stucking/evacuate
 
 execute as @n[type=minecraft:marker,tag=mmdp.deformation.parkour_marker,distance=..5] run function mmdp.deformation:indimension/parkour/give
