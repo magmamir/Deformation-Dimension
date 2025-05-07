@@ -1,3 +1,4 @@
 execute as @e[type=minecraft:marker,tag=mmdp.deformation.node.room_center,tag=mmdp.deformation.node.active,distance=..256] run tag @s remove mmdp.deformation.node.active
 tag @s add mmdp.deformation.node.active
 execute if entity @s[tag=!mmdp.deformation.node.marked] run function mmdp.deformation:indimension/node_system/node_unmarked
+scoreboard players set @p[scores={mmdp.deformation.in_dimension=-9999},distance=..96] mmdp.deformation.in_dimension 0

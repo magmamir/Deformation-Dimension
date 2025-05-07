@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "attacked": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
@@ -17,8 +17,27 @@
           }
         }
       }
+    },
+    "attacking": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mmdp:deformation"
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"mmdp.deformation.mob\"]}"
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "attacked",
+      "attacking"
+    ]
+  ],
   "rewards": {
     "function": "mmdp.deformation:indimension/prevent_stucking/timer_reset"
   }

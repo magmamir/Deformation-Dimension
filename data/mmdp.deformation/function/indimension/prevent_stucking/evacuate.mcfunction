@@ -6,6 +6,7 @@ scoreboard players reset @s mmdp.deformation.evacuate
 
 execute if score temp.evacuate_return mmdp.deformation.tech matches 1 run tellraw @s {"translate":"commands.trigger.failed.unprimed","color":"red"}
 execute if score temp.evacuate_return mmdp.deformation.tech matches 2 run tellraw @s ""
+execute if score temp.evacuate_return mmdp.deformation.tech matches 2 run scoreboard players set @s mmdp.deformation.in_dimension -9999
 execute if score temp.evacuate_return mmdp.deformation.tech matches 3 run tellraw @s {"translate":"mmdp.deformation:chat.stucking_preventing.evacuated","color":"gray","with":[{"bold":true,"clickEvent":{"action":"open_url","value":"https://github.com/magmamir/Deformation-Dimension/issues"},"color":"dark_gray","translate":"github.com","underlined":true}]}
 execute if score temp.evacuate_return mmdp.deformation.tech matches 3 run function mmdp.deformation:teleportation/from/to_the_main_island
 execute if score temp.evacuate_return mmdp.deformation.tech matches 3 run function mmdp.deformation:teleportation/from/untag
