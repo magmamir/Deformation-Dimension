@@ -14,6 +14,10 @@ tag @s add mmdp.deformation.dimension_explorer
 tag @s add mmdp.deformation.waiting_for_inventory_saving
 gamemode adventure @s[gamemode=survival]
 
+#Difficulty system
+execute if score .custom_difficulty mmdp.deformation.tech matches 1 run function mmdp.deformation:indimension/difficulty/easy/entering
+execute if score .custom_difficulty mmdp.deformation.tech matches 3 run function mmdp.deformation:indimension/difficulty/hard/entering
+
 tellraw @s ["",{"color":"#79359c","text":"• ","bold":true},{"color":"#ab99b5","translate":"mmdp.deformation:chat.entrance_message.1-1","with":[{"color":"white","bold":true,"translate":"mmdp.deformation:chat.entrance_message.1-2"}]}]
 execute at @s run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~2 ~ 1.5 1.1
 execute at @s run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~2 ~ 0.8 1.1

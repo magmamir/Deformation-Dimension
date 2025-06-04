@@ -1,0 +1,2 @@
+attribute @s minecraft:generic.armor modifier add mmdp.deformation:difficulty.easy.armor 0.3 add_multiplied_base
+attribute @s minecraft:generic.armor_toughness modifier add mmdp.deformation:difficulty.easy.toughness 0.25 add_multiplied_base

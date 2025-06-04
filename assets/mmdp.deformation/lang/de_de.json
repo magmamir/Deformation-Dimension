@@ -1,5 +1,5 @@
 {
-	"mmdp.deformation:Version": "1.0.1+1.21",
+	"mmdp.deformation:Version": "1.0.1+1.21 (Needs an Update) [Lines: 27-33]",
 	
 	"mmdp.deformation:item.deformation_key" : "Deformationsschlüssel",
 	"mmdp.deformation:item.delusioner_arrow" : "Täuschungs-Pfeil",
@@ -16,7 +16,7 @@
 	"mmdp.deformation:chat.dimension_collapsed.2": "Bitte vermeide solche Situationen in Zukunft, um eine Ausbreitung der Verformung zu verhindern für %s",
 	"mmdp.deformation:chat.dimension_collapsed.3": "den Rest der Welt",
 	"mmdp.deformation:chat.long_offline_return": "Du warst zu lange offline. Deine Dimension wurde zerlegt. Du wurdest zur Hauptinsel von End zurückgebracht",
-	"mmdp.deformation:chat.stucking_preventing.question": "Du hast dich eine ganze Weile nicht bewegt. Steckst du fest?",
+	"mmdp.deformation:chat.stucking_preventing.question": "Du bist schon eine ganze Weile nicht mehr im Dungeon vorangekommen. Steckst du fest?",
 	"mmdp.deformation:chat.stucking_preventing.action.1": "[Ja, evakuiert mich von hier!]",
 	"mmdp.deformation:chat.stucking_preventing.action.2": "[Ignorieren]",
 	"mmdp.deformation:chat.stucking_preventing.evacuated": "Du wurdest erfolgreich zur Hauptinsel End evakuiert. Wenn du aufgrund eines schlechten Spieldesigns tatsächlich im Raum festsitzst, erstelle bitte ein Problem im entsprechenden Abschnitt von %s",
@@ -24,6 +24,13 @@
 	"mmdp.deformation:chat.init_error.command_blocks_disabled": "Befehlsblöcke sind deaktiviert! Sie sind für das ordnungsgemäße Funktionieren des Datenpakets unerlässlich. Bitte aktiviere sie, indem du den entsprechenden Parameter in server.properties änderst",
 	"mmdp.deformation:chat.illegal_item" : ", schalte bitte deine Cheats aus.",
 	"mmdp.deformation:chat.description.illegal_item" : "Dieser Spieler hat versucht, ein benutzerdefiniertes Datenpaketelement abzurufen, das ohne eine Änderung der Client-Server-Pakete oder Operationsbefehle nicht erhältlich ist. Der Verwaltung wird empfohlen, Maßnahmen zu ergreifen. Wenn dieser Benutzer selbst Administrator ist, ignoriere diese Meldung.",
+	
+	
+	
+	
+	
+	
+	
 	"mmdp.deformation:advancement.root.title" : "Die Deformation",
 	"mmdp.deformation:advancement.root.description" : "Sogar die Raumzeit selbst ist hier instabil. Sei vorsichtig. Hüte dich vor Verfall",
 	"mmdp.deformation:advancement.gateway_escape.title" : "Eine unvollkommene Flucht",

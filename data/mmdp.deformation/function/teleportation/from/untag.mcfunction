@@ -30,6 +30,9 @@ attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:u
 attribute @s minecraft:generic.movement_speed modifier remove mmdp.deformation:teleportation_to_dimension
 attribute @s minecraft:generic.fall_damage_multiplier modifier remove mmdp.deformation:parkour_guardian
 
+function mmdp.deformation:indimension/difficulty/easy/leaving
+function mmdp.deformation:indimension/difficulty/hard/leaving
+
 scoreboard players reset @s mmdp.deformation.teleportation
 scoreboard players reset @s mmdp.deformation.in_dimension
 scoreboard players reset @s mmdp.deformation.evacuate

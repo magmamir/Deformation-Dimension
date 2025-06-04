@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "version": "1.0.1+1.21",
+    "version": "1.1.0+1.21",
     "id": "deformation_dimension",
     "name": "Deformation Dimension",
     "description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
@@ -25,7 +25,7 @@
       "continuity": ">=3.0.0-beta.5",
       "entity_texture_features": ">=6.2.5",
       "entity_model_features": ">=2.4.0",
-      "polytone": ">=1.21-3.2.5"
+      "polytone": ">=1.21-3.2.8"
     },
     "recommends": {
       "moremcmeta": ">=1.21-4.5.0"

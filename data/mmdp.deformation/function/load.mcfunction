@@ -19,6 +19,8 @@ scoreboard players set timer.40 mmdp.deformation.tech 0
 scoreboard players set timer.100 mmdp.deformation.tech 0
 scoreboard players set -5 mmdp.deformation.tech -5
 
+execute unless score .custom_difficulty mmdp.deformation.tech matches 1..3 run scoreboard players set .custom_difficulty mmdp.deformation.tech 2
+
 gamerule commandBlockOutput false
 
 team add mmdp.deformation_mobs

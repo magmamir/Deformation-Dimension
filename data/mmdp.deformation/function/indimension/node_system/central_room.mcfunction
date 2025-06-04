@@ -1,0 +1,3 @@
+execute as @e[type=marker,tag=mmdp.deformation.trial_spawner.ominous.central,tag=!mmdp.deformation.trial_spawner.active,tag=!mmdp.deformation.trial_spawner.conquered,distance=..42,limit=4,sort=nearest] at @s run function mmdp.deformation:indimension/mob_spawn/trial_spawners/ominous/activate/central
+advancement grant @p only mmdp.deformation:end/in_the_center
+execute if score .custom_difficulty mmdp.deformation.tech matches 1 as @p run function mmdp.deformation:indimension/difficulty/easy/center

@@ -1,0 +1,16 @@
+tellraw @s ""
+tellraw @s ""
+tellraw @s [{"bold":false,"color":"dark_gray","text":"================="},{"bold":true,"color":"dark_purple","text":" MMDP.deformation "},{"bold":false,"color":"dark_gray","text":"================="}]
+tellraw @s [{"italic":true,"color":"#b7a1c4","translate":"mmdp.deformation:setting.difficulty_system.info"}]
+tellraw @s ""
+execute if score .custom_difficulty mmdp.deformation.tech matches 1 run tellraw @s [{"text":"","color":"blue","bold":true},{"translate":"options.difficulty","color":"gray","bold":false},{"text":":   ","color":"gray","bold":false},{"translate":"options.difficulty.easy","color":"white","bold":true},"    [",{"translate":"options.difficulty.normal","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:2}"}},"]    [",{"translate":"options.difficulty.hard","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:3}"}},"]"]
+execute if score .custom_difficulty mmdp.deformation.tech matches 2 run tellraw @s [{"text":"","color":"blue","bold":true},{"translate":"options.difficulty","color":"gray","bold":false},{"text":":   ","color":"gray","bold":false},"[",{"translate":"options.difficulty.easy","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:1}"}},"]    ",{"translate":"options.difficulty.normal","color":"white","bold":true},"    [",{"translate":"options.difficulty.hard","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:3}"}},"]"]
+execute if score .custom_difficulty mmdp.deformation.tech matches 3 run tellraw @s [{"text":"","color":"blue","bold":true},{"translate":"options.difficulty","color":"gray","bold":false},{"text":":   ","color":"gray","bold":false},"[",{"translate":"options.difficulty.easy","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:1}"}},"]    [",{"translate":"options.difficulty.normal","clickEvent":{"action":"run_command","value":"/function mmdp.deformation:indimension/difficulty/command_change {id:2}"}},"]    ",{"translate":"options.difficulty.hard","color":"white","bold":true}]
+tellraw @s ""
+tellraw @s [{"bold":true,"color":"dark_gray","translate":"mmdp.deformation:setting.difficulty_system.warning.1"}," ",{"bold":false,"color":"gray","translate":"mmdp.deformation:setting.difficulty_system.warning.2"}]
+#tellraw @s [{"bold":false,"color":"#9e9b96","text":"░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"}]
+tellraw @s [{"bold":false,"color":"#9e9b96","text":"-----------------------------------------------------"}]
+#tellraw @s ""
+tellraw @s ["",{"color":"dark_gray","text":"• ","bold":true},{"color":"#cec2ab","translate":"mmdp.deformation:setting.difficulty_system.warning.easy","with":[{"translate":"mmdp.deformation:setting.difficulty_system.warning.easy.w","color":"green"}]}]
+tellraw @s ["",{"color":"dark_gray","text":"• ","bold":true},{"color":"#cec2ab","translate":"mmdp.deformation:setting.difficulty_system.warning.hard","with":[{"translate":"mmdp.deformation:setting.difficulty_system.warning.hard.w","color":"red"}]}]
+tellraw @s [{"bold":false,"color":"dark_gray","text":"———————————————————————————————————"}]
