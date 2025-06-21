@@ -51,6 +51,7 @@ REQUIREMENTS:
   versionRange = "[2.0.0-beta.1,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Allows Continuity and MoreMcmeta to run on NeoForge"
   referralUrl="https://modrinth.com/mod/connector"
 
 [[dependencies.deformation_dimension]]
@@ -59,6 +60,7 @@ REQUIREMENTS:
   versionRange = "[6.2.5,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Required to display textures & models for custom mobs"
   referralUrl="https://modrinth.com/mod/entitytexturefeatures"
 
 [[dependencies.deformation_dimension]]
@@ -67,6 +69,7 @@ REQUIREMENTS:
   versionRange = "[2.4.0,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Required to display textures & models for custom mobs"
   referralUrl="https://modrinth.com/mod/entity-model-features"
   
 [[dependencies.deformation_dimension]]
@@ -75,6 +78,7 @@ REQUIREMENTS:
   versionRange = "[3.0.0+1.21,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Required to display block textures in the dimension"
   referralUrl="https://modrinth.com/mod/continuity"
   
 [[dependencies.deformation_dimension]]
@@ -83,6 +87,7 @@ REQUIREMENTS:
   versionRange = "[1.21-3.2.8,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Required to display custom textures and insert custom items in creative tabs"
   referralUrl="https://modrinth.com/mod/polytone"
   
 [[dependencies.deformation_dimension]]
@@ -91,4 +96,5 @@ REQUIREMENTS:
   versionRange = "[1.21-4.4.9-FABRIC,)"
   ordering = "NONE"
   side = "CLIENT"
+  reason = "Required to display animated textures for custom mobs"
   referralUrl="https://modrinth.com/mod/moremcmeta/version/v1.21.1-4.5.1-fabric"

@@ -3,9 +3,14 @@
     "pack_format": 1,
     "description": [
       {
-        "text": "• DeformationDimension (mod)\n",
+        "text": "• DD ",
         "color": "#8c00b3",
         "italic": false
+      },
+      {
+        "text": "v.1.1.0+1.21 (mod)\n",
+        "color": "#8c00b3",
+        "italic": true
       },
       {
         "text": "by: ",
