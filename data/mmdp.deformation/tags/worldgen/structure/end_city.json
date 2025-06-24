@@ -1,0 +1,6 @@
+{
+  "values": [
+	{"id":"minecraft:end_city", "required":false},
+	{"id":"enderscape:end_city", "required":false}
+  ]
+}

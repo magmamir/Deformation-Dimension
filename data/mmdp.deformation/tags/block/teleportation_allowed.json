@@ -1,6 +1,6 @@
 {
   "values": [
-    "minecraft:air",
+	"minecraft:air",
 	"minecraft:moving_piston",
 	"minecraft:light",
 	"minecraft:structure_void",

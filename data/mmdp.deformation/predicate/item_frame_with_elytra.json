@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item_frame",
+    "location": {
+      "structures": "#mmdp.deformation:end_city"
+    },
+    "slots": {
+      "contents": {
+        "items": "minecraft:elytra"
+      }
+    }
+  }
+}

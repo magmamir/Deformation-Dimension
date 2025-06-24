@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "chest": {
-        "items": "minecraft:elytra",
+        "items": "#mmdp.deformation:elytra",
         "predicates": {
           "minecraft:enchantments": [
             {

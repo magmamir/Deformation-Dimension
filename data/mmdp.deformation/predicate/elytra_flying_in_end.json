@@ -11,7 +11,7 @@
     },
     "equipment": {
       "chest": {
-        "items": "minecraft:elytra"
+        "items": "#mmdp.deformation:elytra"
       }
     }
   }

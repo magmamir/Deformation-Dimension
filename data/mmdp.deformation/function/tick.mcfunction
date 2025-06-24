@@ -3,8 +3,8 @@ execute as @a at @s run function mmdp.deformation:players_tick
 execute as @e[type=minecraft:block_display,tag=mmdp.deformation.painting_custodian] at @s unless predicate mmdp.deformation:on_ride run function mmdp.deformation:custom_paintings/removement
 
 execute as @e[type=minecraft:marker,tag=mmdp.deformation.transgression_armor_trim_used] at @s run function mmdp.deformation:other/transgression_armor_trim
-execute if score timer.20 mmdp.deformation.tech matches 0 as @e[type=minecraft:item_display,tag=mmdp.deformation_entrance.button] at @s run function mmdp.deformation:other/entrance_visual
-execute if score timer.40 mmdp.deformation.tech matches 0 as @e[type=minecraft:item_display,tag=mmdp.deformation.outdimension_block] at @s run function mmdp.deformation:outdimensional_blocks/main_check
+
+execute if entity @a[predicate=mmdp.deformation:in_the_end,limit=1] run function mmdp.deformation:other/the_end_processing
 execute if score orchestrator_preloading_terrain mmdp.deformation.tech matches 1.. as @e[type=minecraft:marker,tag=mmdp.deformation.orchestrator.loading] at @s run function mmdp.deformation:teleportation/to/loading_stages
 execute if score orchestrator_disassembles_dungeon mmdp.deformation.tech matches 1.. as @e[type=minecraft:marker,tag=mmdp.deformation.orchestrator.destroyer] at @s run function mmdp.deformation:teleportation/from/disassembling/main
 execute if score timer.100 mmdp.deformation.tech matches 0 if predicate mmdp.deformation:chance/0.5 as @e[type=minecraft:marker,tag=mmdp.deformation.orchestrator,tag=!mmdp.deformation.orchestrator.loading,tag=!mmdp.deformation.orchestrator.destroyer] at @s run function mmdp.deformation:indimension/orchestrator_tick/count

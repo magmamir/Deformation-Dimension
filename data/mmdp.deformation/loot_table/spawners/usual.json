@@ -359,7 +359,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mmdp.deformation:technical/paintings",
+          "value": "mmdp.deformation:compound/paintings",
           "weight": 3,
           "functions": [
             {

@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "placing": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:item_frame"
+            }
+          }
+        ]
+      }
+    },
+    "interacting": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "entity": {
+          "type": "minecraft:item_frame"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "placing",
+      "interacting"
+    ]
+  ],
+  "rewards": {
+    "function": "mmdp.deformation:entrance_insertion/elytra_based/mark_player_placed"
+  }
+}

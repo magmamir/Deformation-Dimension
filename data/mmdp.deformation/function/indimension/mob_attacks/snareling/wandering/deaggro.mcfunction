@@ -1,6 +1,4 @@
-tp @s ~ -2064 ~
-#data merge entity @s {Silent:1b}
-kill @s
+function mmdp.deformation:other/delete_entity
 $summon minecraft:enderman ~ ~ ~ {\
     AbsorptionAmount:$(AbsorptionAmount),\
     Air:$(Air),\

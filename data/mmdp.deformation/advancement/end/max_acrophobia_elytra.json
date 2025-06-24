@@ -26,7 +26,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:elytra",
+            "items": "#mmdp.deformation:elytra",
             "predicates": {
               "minecraft:enchantments": [
                 {

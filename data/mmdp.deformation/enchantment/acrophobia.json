@@ -2,7 +2,7 @@
   "description": {
     "translate": "mmdp.deformation:enchantment.acrophobia"
   },
-  "supported_items": "minecraft:elytra",
+  "supported_items": "#mmdp.deformation:elytra",
   "weight": 1,
   "max_level": 3,
   "min_cost": {
