@@ -1,0 +1,2 @@
+execute if entity @s[tag=mmdp.deformation.roots_spreader.mirrored] run function mmdp.deformation:entrance_insertion/common/spreading_process/left
+execute if entity @s[tag=!mmdp.deformation.roots_spreader.mirrored] run function mmdp.deformation:entrance_insertion/common/spreading_process/right
