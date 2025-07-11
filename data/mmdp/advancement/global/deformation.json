@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "text": "Deformation Dimension",
+      "color": "dark_purple"
+    },
+    "description": {
+      "translate": "mmdp.deformation:summary",
+      "color": "white"
+    },
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 222984
+      }
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:mmdp",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "title": "Magmamir's Data Packs",
+    "description": "",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [-1646034840,-41006671,-1342349280,856626625]
+        }
+      }
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
 	"mmdp.deformation:Version": "1.1.0+1.21",
+	"mmdp.deformation:summary": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
 	
 	"mmdp.deformation:item.deformation_key" : "Deformation Key",
 	"mmdp.deformation:item.delusioner_arrow" : "Delusioner Arrow",

@@ -1,6 +1,7 @@
 {
 	"mmdp.deformation:Version": "1.1.0+1.21",
 	
+	
 	"mmdp.deformation:item.deformation_key" : "Ключ Деформации",
 	"mmdp.deformation:item.delusioner_arrow" : "Стрела Морока",
 	"mmdp.deformation:item.transgression_armor_trim" : "Кузнечный шаблон",
