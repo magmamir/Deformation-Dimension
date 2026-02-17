@@ -9,7 +9,7 @@ issueTrackerURL="https://github.com/magmamir/Deformation-Dimension/issues"
 [[mods]]
   modId="deformation_dimension"
   namespace="mmdp.deformation"
-  version="1.21-1.0.1"
+  version="1.21-1.0.1.42"
   displayName="Deformation Dimension"
   updateJSONURL="https://api.modrinth.com/updates/deformation-dimension/forge_updates.json?neoforge=include"
   modUrl="https://modrinth.com/datapack/deformation-dimension"

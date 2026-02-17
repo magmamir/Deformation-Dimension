@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "version": "1.0.1+1.21",
+    "version": "1.0.1.42+1.21",
     "id": "deformation_dimension",
     "name": "Deformation Dimension",
     "description": "Nerfs elytra by adding an entirely new dungeon-like dimension you need to complete to obtain one.",
