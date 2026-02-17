@@ -2,6 +2,10 @@ scoreboard players reset temp.log.1 mmdp.deformation.tech
 
 $scoreboard players operation temp.log.2 mmdp.deformation.tech = $(orchestrator) mmdp.deformation.teleportation
 scoreboard players operation temp.log.2 mmdp.deformation.tech *= -5 mmdp.deformation.tech
+
+$execute if score temp.log.2 mmdp.deformation.tech matches 1.. unless entity $(orchestrator) in mmdp:deformation run function mmdp.deformation:teleportation/to/corrupt_player_storage_fix/main with storage mmdp:deformation player_base[{"player":$(player)}] 
+$execute if score temp.log.2 mmdp.deformation.tech matches ..0 in mmdp:deformation run function mmdp.deformation:teleportation/to/corrupt_player_storage_fix/main with storage mmdp:deformation player_base[{"player":$(player)}] 
+
 tellraw @s {"color":"#e57089","translate":"mmdp.deformation:chat.teleportation_cancellation","with":[{"translate":"mmdp.deformation:chat.teleportation_cancellation.soul","bold":true,"color":"#c364c9"},{"score":{"name":"temp.log.2","objective":"mmdp.deformation.tech"},"color":"#c364c9"}]}
 scoreboard players reset temp.log.2 mmdp.deformation.tech
 
