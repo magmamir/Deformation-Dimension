@@ -29,3 +29,6 @@ team modify mmdp.deformation_mobs friendlyFire false
 function mmdp.deformation:indimension/mob_spawn/init
 function mmdp.deformation:other/cb_test/first
 schedule function mmdp.deformation:other/dimension_unload 5s
+
+execute if score orchestrator_preloading_terrain mmdp.deformation.tech matches ..-1 run scoreboard players set orchestrator_preloading_terrain mmdp.deformation.tech 0
+execute if score orchestrator_disassembles_dungeon mmdp.deformation.tech matches ..-1 run scoreboard players set orchestrator_disassembles_dungeon mmdp.deformation.tech 0
