@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "#mmdp.deformation:end_city",
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": "#mmdp.deformation:vault",
+                "state": {
+                  "vault_state": "unlocking"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mmdp.deformation:entrance_insertion/vault_based/triggered"
+  }
+}
